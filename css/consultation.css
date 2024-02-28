@@ -1,0 +1,49 @@
+@charset "utf-8";
+.bx-pager a.active{background:#ef5f84}
+.review .rv_ct{width:1220px;margin-bottom:70px}
+.review_content{width:288px;height:420px;box-sizing:border-box;padding:16px;text-align:center;float:left;margin-right:16px}
+.review_content .userImg{width:168px;height:168px;border-radius:100%;margin:auto 0;margin-left:38px;margin-bottom:16px}
+.review_content .rv_category{padding:7px;font-weight:600}
+.review_content .rv_text{font-weight:300;margin-bottom:6px;display:inline-block;height:93px}
+.review_content .rv_star{margin-top:16px}
+.review_content .rv_star .star_title{position:relative;text-align:left;line-height:20px;float:left;margin-left:40px}
+.review_content .rv_star img{margin-left:-40px}
+.call{height:150px;border-top:2px solid #424852!important;border:1px solid #e4e8eb;position:relative}
+.call .call_title{width:300px;height:150px;border-right:1px solid #e4e8eb;text-align:center;font-weight:500;padding:25px;box-sizing:border-box;float:left}
+.call .call_text{position:absolute;margin-left:350px;margin-top:30px;margin-bottom:14px;font-weight:400}
+.call .call_text:nth-child(3){margin-top:62px}
+.call .call_text:nth-child(4){margin-top:94px}
+.item_four_wrap .item_four .border_right{font-weight:300;border-right:1px solid #e4e8eb;padding-right:20px;line-height:10px}
+.item_four_wrap .con_style{text-align:center}
+.item_four .author{line-height:20px;height:20px;overflow:hidden;color:#636c77;margin:0 auto;width:170px;text-align:left}
+.item_four .author span{padding:0 5px}
+.item_four .author span.person{background:url(../images/book_line.png) no-repeat right 60%;padding-right:7px}
+.item_four .openModal{cursor:pointer;}
+.modal{position:fixed;left:0;top:0;background:rgba(0,0,0,0.6);width:100%;height:100%;padding-left:450px;padding-top:120px;display: none;}
+.modal .close{width:86px;height:30px;padding:10px;margin-left:910px!important;cursor:pointer}
+.modal .close h4{font-weight:300;float:left;line-height:26px;padding-right:16px;color:#fff}
+.modal .modal_content{height:600px;width:1000px;background-color:#fff;box-sizing:border-box}
+.modal .modal_content .profile{width:280px;height:600px;padding:50px;text-align:center;position:relative;box-sizing:border-box;float:left}
+.modal .modal_content .profile .man_image{width:168px;height:168px;border-radius:100%;margin-bottom:20px;margin-left:10px;margin-top:30px}
+.modal .modal_content .profile .three_button{float:left;margin-top:30px}
+.modal .modal_content .profile .three_button button{width:168px;height:48px;margin-top:16px;color:#ef5f84;font-size:16px;background:none;letter-spacing:-1px;font-weight:600}
+.modal .modal_content .profile .three_button button.active{background-color:#ef5f84;color:#fff}
+.modal .modal_content .three{position:absolute;clear:both;width:700px;height:600px;margin-left:280px;padding-top:20px}
+.modal .modal_content .three .tab1{padding:30px;text-align:left}
+.modal .modal_content .three .tab1 .textLine{float:left;margin-bottom:14px}
+.modal .modal_content .three .tab1 .textLine h6{float:left;line-height:25px;font-weight:500}
+.modal .modal_content .three .tab1 .textLine p{margin-left:80px;font-weight:300}
+.modal .modal_content .three .tab2{padding:30px}
+.modal .modal_content .three .tab2 form textarea{width:600px;height:400px;color:#424852;font-size:16px;font-weight:300;padding:14px;resize:none}
+.modal .modal_content .three .tab2 form button{width:120px;height:48px;color:#fff;font-size:16px;font-weight:500;margin-top:30px;margin-left:510px}
+.modal .three_contents table.qna{margin-top:40px;width:100%;height:400px;border:1px solid #e4e8eb}
+.modal .three_contents table.qna tr.answer{background:#fcfcfc}
+.modal .three_contents table.qna td{height:80px;border-bottom:1px solid #e4e8eb;padding:20px 0;box-sizing:border-box}
+.modal .three_contents table.qna td.kind{width:120px}
+.modal .three_contents table.qna td.kind p{width:80px;height:32px;box-sizing:border-box;line-height:30px;text-align:center;margin:0 auto}
+.modal .three_contents table.qna td.kind p.waiting_kind{border:1px solid #a9afba;color:#a9afba}
+.modal .three_contents table.qna td.text{padding-left:20px;padding-right:30px;box-sizing:border-box;word-break:keep-all}
+.modal .three_contents table.qna td.info{width:140px}
+.modal .three_contents table.qna td.info p{color:#a9afba}
+.modal .three_contents table.qna td.info p span{color:#424852}
+.modal .three_contents table.qna tr.no_list td{color:#a9afba;font-size:18px;text-align:center}

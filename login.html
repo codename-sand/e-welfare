@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+</head>
+<style type="">
+* , body {
+	font-family: 'Noto Sans KR';
+	margin : 0 auto;
+	letter-spacing: -1px;
+}
+
+div {
+	width : 960px;
+	height: 640px;
+}
+section {
+	background: no-repeat url("images/login_bg.png");
+	width : 593px;
+	height: 640px;
+	position: relative;
+	float: left;
+	margin-top: 120px;
+}
+
+aside {
+	margin-top: 120px;
+	position: absolute;
+	width : 367px;
+	height: 640px;
+	padding-left: 593px;
+	border : 1px solid #e3e3e3;
+}
+
+aside > img {
+	margin-top: 70px;
+	margin-left: 83px;
+	margin-bottom: 100px;
+}
+
+aside form input {
+	width : 280px;
+	height: 60px;
+	margin-left: 44px;
+	outline : none;
+}
+
+input::-webkit-input-placeholder {
+	font-size: 16px;
+	color: #c3c3c3;
+	font-weight: 200;
+	font-family: inherit;
+	padding-left: 10px;
+}
+
+input:-ms-input-placeholder {
+	font-size: 16px;
+	color: #c3c3c3;
+	font-weight: 200;
+	font-family: inherit;
+	padding-left: 10px;
+}
+
+input::-moz-placeholder {
+	font-size: 16px;
+	color: #c3c3c3;
+	font-weight: 200;
+	font-family: inherit;
+	padding-left: 10px;
+}
+
+aside form > .first_input, aside form > .second_input{
+	border-left: none;
+	border-right: none;
+}
+
+aside form > .first_input {
+	border-top : 2px solid #676767;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+aside form > .second_input {
+	border-top : none;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+aside form .joinButton{
+	border : 2px solid #4fc0e8;
+	color : #4fc0e8;
+	width : 140px;
+	height: 60px;
+	font-size: 24px;
+	font-weight: 500;
+	margin-left: 44px;
+	margin-top: 80px;
+	cursor: pointer;
+	float: left;
+	background : none;
+}
+
+aside form .loginButton {
+	color : white;
+	background-color: #4fc0e8;
+	border : transpa;
+	width : 140px;
+	height: 60px;
+	font-size: 24px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-top: 80px;
+	margin-left: 10px;
+	border : transparent;
+}
+
+</style>
+<body>
+	<div>
+		<section></section>
+	<aside>
+		<img src="images/login_logo.png">
+		<form>
+			<input type="text" name="" placeholder="아이디를 입력하세요" class="first_input">
+			<input type="password" name="" placeholder="비밀번호를 입력하세요" class="second_input">
+			<input type="button" value="회원가입" class="joinButton" onclick="location.href='join.html'">
+			<input type="button" value="로그인" class="loginButton" onclick="">
+
+			
+		</form>
+	</aside>	
+	</div>
+
+</body>
+</html>

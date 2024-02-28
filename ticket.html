@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/ticket.css">
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+	<header class="hd_blue">
+		<h1><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+		<div class="menu">
+			<a href=""><img src="images/menu_icon.png" alt="menu_icon">전체메뉴</a>
+			<ul class="allMenu">
+				<li>
+					<a href="medical.html">의료</a>
+					<ul>
+						<li><a href="medical_health.html">건강검진</a></li>
+						<li><a href="medical_tooth.html">교정치아</a></li>
+						<li><a href="medical_scaling.html">스케일링</a></li>
+						<li><a href="medical_eye.html">시력검진</a></li>
+						<li><a href="medical_presbyopia.html">노안검진</a></li>
+						<li><a href="medical_macrogen.html">유전체검사</a></li>
+						
+					</ul>
+				</li>
+
+				<li>
+					<a href="book.html">도서</a>
+					<ul>
+						<li><a href="book_popular.html">인기</a></li>
+						<li><a href="book_economy.html">경제/경영</a></li>
+						<li><a href="book_development.html">자기개발</a></li>
+						<li><a href="book_hobby.html">취미/건강</a></li>
+						<li><a href="book_humanities.html">인문</a></li>
+						<li><a href="book_literature.html">문학</a></li>
+						<li><a href="book_kids.html">아동/청소년</a></li>
+						<li><a href="book_children.html">자녀교육</a></li>
+						<li><a href="book_etc.html">기타</a></li>
+						<li><a href="book_leader.html">For Leaders</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="travel.html">여행</a>
+					<ul>
+						
+						<li><a href="travel_workshop.html">워크샵</a></li>
+						<li><a href="travel_hotel.html">호텔</a></li>
+						<li><a href="travel_pension.html">펜션</a></li>
+						<li><a href="travel_custom.html">맞춤여행</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="ticket.html">티켓</a>
+					<ul>
+						<li><a href="ticket.html#movie">영화</a></li>
+						<li><a href="ticket.html#best">공연</a></li>
+						<li><a href="ticket.html#baseball">야구</a></li>
+						<li><a href="ticket.html#soccer">축구</a></li>
+						<li><a href="ticket.html#basketball">농구</a></li>
+						<li><a href="ticket.html#volleyball">배구</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="consultation.html">자문</a>
+					<ul>
+						<li><a href="consultation1.html">법률자문</a></li>
+						<li><a href="consultation2.html">경영자문</a></li>
+						<li><a href="consultation3.html">변리자문</a></li>
+						<li><a href="consultation4.html">노무자문</a></li>
+						<li><a href="consultation5.html">파산회생</a></li>
+						<li><a href="consultation6.html">손해사정</a></li>
+						<li><a href="consultation7.html">세무자문</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="life.html">생활</a>
+					<ul>
+						<li><a href="life_detail1.html">사진타운</a></li>
+						<li><a href="life_detail2.html">가족사진</a></li>
+						<li><a href="life_detail3.html">홈케어</a></li>
+						<li><a href="http://www.ifamily.co.kr/iwedding">웨딩상담</a></li>
+						<li><a href="life_detail5.html">하나금융</a></li>
+						<li><a href="life_detail6.html">정리수납</a></li>
+						<li><a href="life_detail7.html">헤어서비스</a></li>
+						<li><a href="life_detail8.html">마음건강</a></li>
+						<li><a href="life_detail9.html">안전/보안</a></li>
+						
+					</ul>
+				</li>
+
+				<li>
+					<a href="econ.html">e콘</a>
+					<ul>
+						<li><a href="econ_coffee.html">커피</a></li>
+						<li><a href="econ_fastfood.html">패스트푸드</a></li>
+						<li><a href="econ_convenience.html">편의점/간식</a></li>
+						<li><a href="econ_bread.html">제과/제빵</a></li>
+						<li><a href="econ_restaurant.html">외식/레스토랑</a></li>
+						<li><a href="econ_etc.html">생활/기타</a></li>
+						<li><a href="econ_movie.html">영화</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="tour.html">관광지</a>
+					<ul>
+						<li><a href="tour_md.html">MD추천</a></li>
+						<li><a href="tour_kids.html">키즈</a></li>
+						<li><a href="tour_water.html">워터파크</a></li>
+						<li><a href="tour_theme.html">테마파크</a></li>
+						<li><a href="tour_restaurant.html">레스토랑</a></li>
+						<li><a href="tour_spa.html">스파/온천</a></li>
+						<li><a href="tour_ski.html">스키/눈썰매</a></li>
+						<li><a href="tour_aqua.html">아쿠아리움</a></li>
+						<li><a href="tour_leports.html">레포츠</a></li>
+					</ul>
+				</li>
+
+				<li style="clear: both">
+					<a href="education.html">교육</a>
+					<ul>
+						<li><a href="education_detail1.html">근로자카드</a></li>
+						<li><a href="education_detail2.html">유아교육</a></li>
+						<li><a href="book.html">우수도서</a></li>
+						<li><a href="education_detail4.html">기업교육</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="car.html">자동차</a>
+					<ul>
+						<li><a href="http://carbohummall-direct.com/">자동차보험</a></li>
+						<li><a href="car_detail2.html">렌터카견적</a></li>
+						<li><a href="car_carpos.html">엔진오일</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="couponking.html">쿠폰킹</a>
+					<ul>
+						<li><a href="couponking_eat.html">맛집/카페</a></li>
+						<li><a href="couponking_beauty.html">뷰티/케어</a></li>
+						<li><a href="couponking_health.html">건강관리</a></li>
+						<li><a href="couponking_car.html">차량정비</a></li>
+						<li><a href="couponking_life.html">생활편의</a></li>
+						<li><a href="couponking_education.html">교육/학원</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="shopping.html">쇼핑</a>
+					<ul>
+						<li><a href="shopping_samsung.html">삼성/특가전</a></li>
+						<li><a href="shopping_digital.html">가전/디지털</a></li>
+						<li><a href="shopping_kitchen.html">주방/생활</a></li>
+						<li><a href="shopping_furniture.html">유아동/가구</a></li>
+						<li><a href="shopping_health.html">건강/식품</a></li>
+						<li><a href="shopping_fashion.html">패션/잡화</a></li>
+						<li><a href="shopping_sports.html">스포츠/레져</a></li>
+						<li><a href="shopping_gift.html">사은품</a></li>
+						<li><a href="shopping_office.html">오피스</a></li>
+						<li><a href="shopping_clothing.html">의류</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="welfaremall.html">복지몰</a>
+				</li>
+
+				<li>
+					<a href="charge.html">충전소</a>
+				</li>
+
+				<li>
+					<a href="event.html">이벤트</a>
+					<ul>
+						<li><a href="event.html">진행중 이벤트</a></li>
+						<li><a href="event_end.html">종료된 이벤트</a></li>
+						<li><a href="event_win.html">당첨자 발표</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="search">
+			<form action="">
+				<input type="text" placeholder="어떤 혜택이 필요하세요?">
+				<input type="submit">
+			</form>
+		</div>
+
+		<ul class="gnb">
+			<li><a href="login.html"><img src="images/login_icon.png" alt="login_icon">로그인</a></li>
+			<li><a href="cart.html"><img src="images/cart_icon.png" alt="cart_icon">장바구니</a></li>
+			<li><a href="mypage.html"><img src="images/mypage_icon.png" alt="mypage_icon">마이페이지</a></li>
+		</ul>
+	</header>
+
+	<div class="title">
+		<h2>e복지 Ticket</h2>
+		<h5>즐겁고 재미있는 무언가를 찾고 계신가요?</h5>
+		<div class="bg_blue"></div>
+	</div>
+
+	<div class="sub_banner">
+		<ul class="ticket_banner">
+			<li><a href="" style="background-image: url(images/ticket_slide.png);"></a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		$('.ticket_banner').bxSlider({
+			
+			speed: 700,
+			pause: 4000,
+			auto: true,
+			autoHover: true,
+			pager: true,
+			controls: false,
+		})
+	});
+	</script>
+
+	<table class="tabmenu center">
+		<tr>
+			<td>
+				<a href="#movie">
+				<img src="images/ticket_icon_1_off.png" alt="ticket_icon">영화
+				</a>
+			</td>
+			<td>
+				<a href="#best">
+				<img src="images/ticket_icon_2_off.png" alt="ticket_icon">공연
+				</a>
+			</td>
+			<td>
+				<a href="#baseball"><img src="images/ticket_icon_3_off.png" alt="ticket_icon">야구
+				</a>
+			</td>
+			<td>
+			<a href="#soccer">
+				<img src="images/ticket_icon_4_off.png" alt="ticket_icon">축구
+			</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a href="#basketball">
+			<img src="images/ticket_icon_5_off.png" alt="ticket_icon">농구
+			</a>
+		</td>
+			<td>
+				<a href="#volleyball">
+				<img src="images/ticket_icon_6_off.png" alt="ticket_icon">배구
+				</a>
+			</td>
+			<td onClick="location.href=''"></td>
+			<td onClick="location.href=''"></td>
+		</tr>
+	</table>
+
+	<!-- box_office -->
+	<div class="center" id="movie">
+		<h3 class="sub_title center">BOX OFFICE</h3>
+		<div class="box_office cf">
+
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie.png" alt="">
+				<div class="movie_info">
+					<img src="images/age12.png" class="agetag">
+					<h4 class="ellipsis">스파이더맨:홈커밍</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie2.png" alt="">
+				<div class="movie_info">
+					<img src="images/age15.png" class="agetag">
+					<h4 class="ellipsis">박열</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie3.png" alt="">
+				<div class="movie_info">
+					<img src="images/age12.png" class="agetag">
+					<h4 class="ellipsis">프라이드 더 히어로</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie4.png" alt="">
+				<div class="movie_info">
+					<img src="images/age15.png" class="agetag">
+					<h4 class="ellipsis">카르멘</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie5.png" alt="">
+				<div class="movie_info">
+					<img src="images/age15.png" class="agetag">
+					<h4 class="ellipsis">트랜스포머:최후의 기사</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie6.png" alt="">
+				<div class="movie_info">
+					<img src="images/age20.png" class="agetag">
+					<h4 class="ellipsis">루살카</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie7.png" alt="">
+				<div class="movie_info">
+					<img src="images/age15.png" class="agetag">
+					<h4 class="ellipsis">오레!!썸머 단독 생중계</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie8.png" alt="">
+				<div class="movie_info">
+					<img src="images/age12.png" class="agetag">
+					<h4 class="ellipsis">헤드윅:극장판</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie9.png" alt="">
+				<div class="movie_info">
+					<img src="images/age12.png" class="agetag">
+					<h4 class="ellipsis">마술피리</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+			
+			<div class="border_gray movie">
+				<img class="poster" src="images/ticket_movie10.png" alt="">
+				<div class="movie_info">
+					<img src="images/age20.png" class="agetag">
+					<h4 class="ellipsis">리얼</h4>
+					<button class="border_blue blue take_button">예매하기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- best10 -->
+	<div class="center" id="best">
+		<h3 class="sub_title">인기공연 TOP 10
+		</h3>
+
+		<div class="item_ten_wrap cf">
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best1.png);"></div>
+					<h6 class="black ticket_best_title name">뮤지컬 브레멘 음악대 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best2.png);"></div>
+					<h6 class="black ticket_best_title name">뮤지컬 한뼘사이 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best3.png);"></div>
+					<h6 class="black ticket_best_title name">연극 오백에삼십 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best4.png);"></div>
+					<h6 class="black ticket_best_title name">연극 뉴보잉보잉 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best5.png);"></div>
+					<h6 class="black ticket_best_title name">어린이 연극 어린왕자의 꿈 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best6.png);"></div>
+					<h6 class="black ticket_best_title name">연극 옥탑방 고양이 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best7.png);"></div>
+					<h6 class="black ticket_best_title name">공포연극 6호실 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best8.png);"></div>
+					<h6 class="black ticket_best_title name">연극 라이어 20년 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best9.png);"></div>
+					<h6 class="black ticket_best_title name">뮤지컬 루나틱 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best10.png);"></div>
+					<h6 class="black ticket_best_title name"> 영화 무료 관람권 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+		</div>
+		<div class="item_ten_wrap cf">
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best11.png);"></div>
+					<h6 class="black ticket_best_title name">연극 쉬어메드니스 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best12.png);"></div>
+					<h6 class="black ticket_best_title name">연극 룸넘버13 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best13.png);"></div>
+					<h6 class="black ticket_best_title name">뮤지컬 3월의 눈 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best14.png);"></div>
+					<h6 class="black ticket_best_title name">연극 운빨 로맨스 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best15.png);"></div>
+					<h6 class="black ticket_best_title name">데이트 연극 작업의 정석 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best16.png);"></div>
+					<h6 class="black ticket_best_title name">데이트 연극 연애하기 좋은날 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best17.png);"></div>
+					<h6 class="black ticket_best_title name">연극 늘근도둑이야기 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best18.png);"></div>
+					<h6 class="black ticket_best_title name">연극 거미여인의 키스 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best19.png);"></div>
+					<h6 class="black ticket_best_title name">뮤지컬 앙리할아버지와 나 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+
+			<div class="item_ten">
+				<a href="performance_detail.html" class="cf">
+					<div class="img_ticket" style="background-image: url(images/ticket_best20.png);"></div>
+					<h6 class="black ticket_best_title name">뮤지컬 쥐덫 - 월 기간권(~2017.09.09)</h6>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- baseball -->
+	<div class="sports center cf" id="baseball">
+		<h3 class="sub_title center">프로야구</h3>
+		<div class="textTab">
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'one')" id="defaultDay">2017.08.30(수)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'two')">2017.08.31(목)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'three')">2017.09.01(금)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'four')">2017.09.02(토)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'five')">2017.09.03(일)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'six')">2017.09.04(월)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'seven')">2017.09.05(화)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'five')">2017.09.06(수)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'six')">2017.09.07(목)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'seven')">2017.09.08(금)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'four')">2017.09.09(토)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'five')">2017.09.10(일)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'six')">2017.09.11(월)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'seven')">2017.09.12(화)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'five')">2017.09.13(목)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'six')">2017.09.14(금)</button>
+			<button class="dailyTab dailycss" onclick="openbaseball(event,'seven')">2017.09.15(토)</button>
+		</div>
+
+		<div class="tabContents cf">			
+			<div class="tabContent" id="one">
+				<div class="group border_gray cf">
+					<div class="sports_group">
+						<img src="images/ticket_sports1.png" class="groupLogo">
+						<span class="black groupName">한화</span>
+					</div>
+					<div class="place">
+						<span class="name">광주경기장</span>
+						<br>
+						<span class="time">14:00</span>
+					</div>
+					<div class="sports_group right">
+						<img src="images/ticket_sports2.png" class="groupLogo">
+						<span class="black groupName">기아</span>
+					</div>
+					<button class="border_blue blue sports_button" onclick="window.open('ticket_popup.html','','resizable=yes,menubar=no,width=450,height=850')" target="_blank" style="cursor: pointer;">예약하기</button>			
+				</div>
+				<div class="group border_gray cf">
+					<div class="sports_group">
+						<img src="images/ticket_sports3.png" class="groupLogo">
+						<span class="black groupName">SK</span>
+					</div>
+					<div class="place">
+						<span class="name">문학경기장</span>
+						<br>
+						<span class="time">13:00</span>
+					</div>
+					<div class="sports_group right">
+						<img src="images/ticket_sports4.png" class="groupLogo">
+						<span class="black groupName">삼성</span>
+					</div>
+					<button class="border_blue blue sports_button" onclick="window.open('ticket_popup.html','','resizable=yes,menubar=no,width=450,height=850')" target="_blank" style="cursor: pointer;">예약하기</button>			
+				</div>
+				<div class="group border_gray cf">
+					<div class="sports_group">
+						<img src="images/ticket_sports5.png" class="groupLogo">
+						<span class="black groupName">KT</span>
+					</div>
+					<div class="place">
+						<span class="name">상암경기장</span>
+						<br>
+						<span class="time">13:00</span>
+					</div>
+					<div class="sports_group right">
+						<img src="images/ticket_sports6.png" class="groupLogo">
+						<span class="black groupName">NC</span>
+					</div>
+					<button class="border_blue blue sports_button" onclick="window.open('ticket_popup.html','','resizable=yes,menubar=no,width=450,height=850')" target="_blank" style="cursor: pointer;">예약하기</button>			
+				</div>
+				<div class="group border_gray cf">
+					<div class="sports_group">
+						<img src="images/ticket_sports7.png" class="groupLogo">
+						<span class="black groupName">롯데</span>
+					</div>
+					<div class="place">
+						<span class="name">잠실경기장</span>
+						<br>
+						<span class="time">17:00</span>
+					</div>
+					<div class="sports_group right">
+						<img src="images/ticket_sports8.png" class="groupLogo">
+						<span class="black groupName">넥센</span>
+					</div>
+					<button class="border_blue blue sports_button" onclick="window.open('ticket_popup.html','','resizable=yes,menubar=no,width=450,height=850')" target="_blank" style="cursor: pointer;">예약하기</button>			
+				</div>
+				<div class="group border_gray cf">
+					<div class="sports_group">
+						<img src="images/ticket_sports5.png" class="groupLogo">
+						<span class="black groupName">KT</span>
+					</div>
+					<div class="place">
+						<span class="name">성남경기장</span>
+						<br>
+						<span class="time">13:00</span>
+					</div>
+					<div class="sports_group right">
+						<img src="images/ticket_sports3.png" class="groupLogo">
+						<span class="black groupName">SK</span>
+					</div>
+					<button class="border_blue blue sports_button" onclick="window.open('ticket_popup.html','','resizable=yes,menubar=no,width=450,height=850')" target="_blank" style="cursor: pointer;">예약하기</button>			
+				</div>
+			</div>
+			
+			<div class="tabContent" id="two">
+				<div class="none_sports black">
+					오늘은 프로야구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent" id="three">
+				<div class="none_sports black">
+					오늘은 프로야구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent" id="four">
+				<div class="none_sports black">
+					오늘은 프로야구 경기 일정이 없습니다!
+				</div>
+			</div>
+			
+			<div class="tabContent" id="five">
+				<div class="none_sports black">
+					오늘은 프로야구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent cf" id="six">
+				<div class="none_sports black">
+					오늘은 프로야구 경기 일정이 없습니다!
+				</div>
+			</div>
+			
+			<div class="tabContent cf" id="seven">
+				<div class="none_sports black">
+					오늘은 프로야구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="js/baseball.js"></script>
+	
+	<!-- soccer -->
+	<div class="sports center cf" id="soccer">
+		<h3 class="sub_title center">프로축구</h3>
+		<div class="textTab">
+			<button class="dailyTab2 dailycss" onclick="soccer(event,'first')" id="defaultButton">2017.08.30(수)</button>
+			<button class="dailyTab2 dailycss" onclick="soccer(event,'second')">2017.08.31(목)</button>
+			<button class="dailyTab2 dailycss" onclick="soccer(event,'second')">2017.09.01(금)</button>
+			<button class="dailyTab2 dailycss" onclick="soccer(event,'second')">2017.09.02(토)</button>
+			<button class="dailyTab2 dailycss" onclick="soccer(event,'second')">2017.09.03(일)</button>
+			<button class="dailyTab2 dailycss" onclick="soccer(event,'second')">2017.09.04(월)</button>
+			<button class="dailyTab2 dailycss" onclick="soccer(event,'second')">2017.09.05(화)</button>
+		</div>
+
+		<div class="tabContents cf">
+			
+			<div class="tabContent2" id="first">
+				<div class="none_sports black">
+					오늘은 프로축구 경기 일정이 없습니다!
+				</div>
+			</div>
+			
+			<div class="tabContent2" id="second">
+				<div class="none_sports black">
+					오늘은 프로축구 경기 일정이 없습니다!
+				</div>
+			</div>	
+
+		</div>
+	</div>
+	<script src="js/soccer.js"></script>
+
+	<!-- baseketball -->
+	<div class="sports center" id="basketball">
+		<h3 class="sub_title center">프로농구</h3>
+		<div class="textTab">
+			<button class="dailyTab3 dailycss" onclick="basketball(event,'bk_one')" id="defaultButton2">2017.08.30(수)</button>
+			<button class="dailyTab3 dailycss" onclick="basketball(event,'bk_two')">2017.08.31(목)</button>
+			<button class="dailyTab3 dailycss" onclick="basketball(event,'bk_three')">2017.09.01(금)</button>
+			<button class="dailyTab3 dailycss" onclick="basketball(event,'bk_four')">2017.09.02(토)</button>
+			<button class="dailyTab3 dailycss" onclick="basketball(event,'bk_five')">2017.09.03(일)</button>
+			<button class="dailyTab3 dailycss" onclick="basketball(event,'bk_six')">2017.09.04(월)</button>
+			<button class="dailyTab3 dailycss" onclick="basketball(event,'bk_seven')">2017.09.05(화)</button>
+		</div>
+
+		<div class="tabContents cf">
+			
+			<div class="tabContent3" id="bk_one">
+				<div class="none_sports black">
+					오늘은 프로농구 경기 일정이 없습니다!
+				</div>
+			</div>	
+
+			<div class="tabContent3" id="bk_two">
+				<div class="none_sports black">
+					오늘은 프로농구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent3" id="bk_three">
+				<div class="none_sports black">
+					오늘은 프로농구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent3" id="bk_four">
+				<div class="none_sports black">
+					오늘은 프로농구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent3" id="bk_five">
+				<div class="none_sports black">
+					오늘은 프로농구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent3" id="bk_six">
+				<div class="none_sports black">
+					오늘은 프로농구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent3" id="bk_seven">
+				<div class="none_sports black">
+					오늘은 프로농구 경기 일정이 없습니다!
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/basketball.js"></script>
+	
+	<!-- volleyball -->
+	<div class="sports center" id="volleyball">
+		<h3 class="sub_title center">프로배구</h3>
+		<div class="textTab">
+			<button class="dailyTab4 dailycss" onclick="volleyball(event,'bl_one')" id="defaultButton3">2017.08.30(수)</button>
+			<button class="dailyTab4 dailycss" onclick="volleyball(event,'bl_two')">2017.08.31(목)</button>
+			<button class="dailyTab4 dailycss" onclick="volleyball(event,'bl_three')">2017.09.01(금)</button>
+			<button class="dailyTab4 dailycss" onclick="volleyball(event,'bl_four')">2017.09.02(토)</button>
+			<button class="dailyTab4 dailycss" onclick="volleyball(event,'bl_five')">2017.09.03(일)</button>
+			<button class="dailyTab4 dailycss" onclick="volleyball(event,'bl_six')">2017.09.04(월)</button>
+			<button class="dailyTab4 dailycss" onclick="volleyball(event,'bl_seven')">2017.09.05(화)</button>
+		</div>
+
+		<div class="tabContents cf">
+			
+			<div class="tabContent4" id="bl_one">
+				<div class="none_sports black">
+					오늘은 프로배구 경기 일정이 없습니다!
+				</div>
+			</div>	
+
+			<div class="tabContent4" id="bl_two">
+				<div class="none_sports black">
+					오늘은 프로배구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent4" id="bl_three">
+				<div class="none_sports black">
+					오늘은 프로배구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent4" id="bl_four">
+				<div class="none_sports black">
+					오늘은 프로배구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent4" id="bl_five">
+				<div class="none_sports black">
+					오늘은 프로배구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent4" id="bl_six">
+				<div class="none_sports black">
+					오늘은 프로배구 경기 일정이 없습니다!
+				</div>
+			</div>
+
+			<div class="tabContent4" id="bl_seven">
+				<div class="none_sports black">
+					오늘은 프로배구 경기 일정이 없습니다!
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/volleyball.js"></script>
+	<footer>
+		<div class="ft_top">
+			<div class="center">
+				<ul class="cf">
+					<li><a href="">이용약관</a></li>
+					<li><a href="" class="eblue">개인정보 처리방침</a></li>
+					<li><a href="">이메일 무단 수집 거부</a></li>
+					<li><a href="">고객센터</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="ft_bottom center">
+			<p><strong>(주) 한국기업복지</strong></p>
+			<p>대표 이현호&nbsp;&nbsp;&nbsp;&nbsp;서울시 성동구 성수일로 77 서울숲 IT밸리 505~507호&nbsp;&nbsp;&nbsp;&nbsp;사업자 등록번호 : 749-86-0063&nbsp;&nbsp;&nbsp;&nbsp;<a href="">사업자 정보 확인하기</a>&nbsp;&nbsp;&nbsp;&nbsp;통신판매업 신고번호 : 서울성동 01210호</p>
+			<p>고객센터 <strong>02-562-7747</strong>(평일 09-18시)&nbsp;&nbsp;&nbsp;&nbsp;팩스 02-562-2242&nbsp;&nbsp;&nbsp;&nbsp;이메일 okwel@naver.com</p>
+			<p class="copyright">Copyright © 2017 ebokji All Right Reserved.</p>
+		</div>
+	</footer>
+</body>
+</html>

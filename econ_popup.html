@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script src="js/input.js"></script>
+</head>
+<style type="text/css">
+	body {
+		width : 440px;
+		min-width: 440px;
+		padding : 20px;
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+	 
+	.pop_title {
+		margin-bottom: 30px;
+	}
+
+	.econ_thum {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		margin-bottom: 30px;
+		margin-left: 50px;
+	}
+	
+	.productInfo {
+		line-height: 30px;
+	}
+	
+	.productInfo .subInfo {
+		margin-top: 10px;
+	}
+	.productInfo .subInfo:nth-child(6) {
+		margin-bottom: 50px;
+	}
+
+	.productInfo .subInfo .price {
+		font-weight: 500;
+		line-height: 20px;
+		font-size: 14px;
+		text-align: right;
+		margin-right: 10px;
+	}
+
+	.productInfo .subInfo .sub_infoTitle {
+		float: left;
+		width : 320px;
+	}
+
+	.line {
+		border-width: 1px 0px 0px 0px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.info_title {
+		font-weight: 600;
+		width: 100%;
+		border-bottom: 1px solid #424852;
+		line-height: 40px;
+		margin-bottom: 20px;
+		position: relative;
+		margin-top: 20px;
+	}
+	
+	.info {
+		font-size: 12px;
+	}
+	
+	.econ_input label {
+		width : 130px;
+		display: inline-block;
+		margin-top: 5px;
+	}
+	
+	.econ_input input[type="text"],
+	.econ_input input[type="tel"] {
+		width : 260px;
+		height: 44px;
+		border : 1px solid #e4e8eb;
+		margin-bottom: 10px;
+		font-weight: 400;
+		text-align: right;
+		margin-top: 16px;
+	}
+	.right_lo {
+		text-align: right;
+		margin-right: 10px;
+	}
+	.econ_input input::-webkit-input-placeholder{
+		color : #9579da !important; 
+		font-weight: 500;
+	}
+	.econ_input input:-ms-input-placeholder{
+		color : #9579da !important; 
+		font-weight: 500;
+	}
+	.econ_input input::-moz-placeholder {
+		color : #9579da !important; 
+		font-weight: 500;
+	}
+	
+	.right_button {
+		display: block;
+		margin-left: 314px;
+		width : 80px;
+		height: 30px;
+		background: none;
+	}
+
+	.bt {
+		width : 400px;
+		height: 60px;
+		font-size: 20px;
+		font-weight: 600;
+		margin-top: 30px;
+		letter-spacing: -1px;
+		background : none;
+	}
+	
+	.check_box {
+		float: left;
+		width : 180px;
+		height: 40px;
+		position: relative;
+		display: block;
+		margin-left: 280px;
+	}
+
+	.check_wrap {
+		width : 20px;
+		height: 20px;
+		position: relative;
+		background-color: red;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	
+	.check_box .check_text {
+		position: absolute;
+		margin-left: 10px;
+		margin-top: 7px;
+		font-size: 16px;
+		font-weight: 400;
+		color: #83878d;
+	}
+
+	input[type="checkbox"] {
+		width : 20px;
+		height: 20px;
+		position: absolute;
+		top : 0;
+		left : 0;
+		margin : 0;
+		opacity: 0;
+		z-index: 2;
+	}
+
+	.checkBgImg {
+		width : 20px;
+		height: 20px;
+		background-image: url(images/checkbox_none.png);
+		position: absolute;
+		top : 0;
+		left : 0;
+		cursor: pointer;
+	}
+
+	input[type="checkbox"]:checked + .checkBgImg{
+		background: url(images/checkbox_on.png);
+	}
+
+</style>
+<body>
+	<form>
+	<div class="bg">
+		<h4 class="purple pop_title">e콘 상세보기</h4>
+		
+		<div class="border_gray econ_thum" style="background-image: url('images/econ_popup.png');">
+		</div>
+		
+		<div class="productInfo">
+			<h6 class="purple">매가박스</h6>
+			<h4 class="black ">[매가박스] 예매권 1인</h4>
+
+			<div class="subInfo">
+				<p class="sub_infoTitle black">유효기간</p>
+				<h5 class="black price">60일</h5>
+			</div>
+			<div class="subInfo">
+				<p class="sub_infoTitle black">상품수량</p>
+				<h5 class="black price">1개</h5>
+			</div>
+			<div class="subInfo">
+				<p class="sub_infoTitle black">상품가격</p>
+				<h5 class="black price">9,000원</h5>
+			</div>
+
+			<div class="line border_gray"></div>
+
+			<div class="subInfo">
+				<h4 class="sub_infoTitle black">결제금액</h4>
+				<h4 class="purple right_lo" >9,000원</h4>
+			</div>
+
+			<div class="line border_gray"></div>
+		</div>
+				
+		<div class="userinfo">
+			<p class="info_title">e콘 상품 정보</p>
+		</div>
+		
+		<p class="info">
+			*온라인 예매시 할인수단 '기프티콘' 선택 후 예매<br>
+			*티켓 교환 후 현금 환불 불가<br>
+			*3D영화 이용 불가<br>
+			*사용 불가 : 특별관 (M2, TABLE M, OPEN M, 부티M, 킨텍스 FIRST CLUB, 프리미엄관, 자동차극장) 특별석(로얄석, 커플석, Table, Zone, 발코니M등), 아트나인, 특별 콘텐츠<br>
+			*프로모션 (B2B) 발송상품은 유효기간 연장 및 환불 대상이 아닙니다. (기업경품, 사은품 등)<br>
+		</p>
+
+		<div class="userinfo">
+			<p class="info_title">e콘 구매 정보</p>
+		</div>
+		<div class="econ_input">
+			<label for="point">사용가능한 포인트</label>
+			<input type="text" id="point" readonly placeholder="29,768,421P">
+		</div>
+		
+		<div class="econ_input">
+			<label for="point2">적용 포인트</label>
+			<input type="text" id="point2" >
+			<button class="purple border_purple right_button">모두적용</button>
+		</div>
+		<div class="econ_input">
+			<label for="from">보내는 사람</label>
+			<input type="tel" id="from">
+		</div>
+
+		<div class="econ_input">
+			<label for="to">받는 사람</label>
+
+			<div class="check_box">
+				<div class="check_wrap">
+					<input type="checkbox" name="" id="check">
+					<div class="checkBgImg"></div>
+				</div>
+				<label class="check_text">주문자와 동일</label>
+			</div>
+			<input type="tel" id="to">
+		</div>
+		
+		<button class="border_purple purple bt">
+			구매하기
+		</button>
+		</form>
+	</div>
+</body>
+</html>

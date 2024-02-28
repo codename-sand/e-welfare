@@ -1,0 +1,29 @@
+@charset "utf-8";
+.myContents{margin-top:60px!important}
+.detail_content_title{font-weight:600;padding-left:15px;border-left:4px solid #424852;line-height:18px;margin-bottom:30px;margin-top:60px}
+.detail_content_title a{font-size:16px;font-weight:400;color:#424852;border:1px solid #424852;box-sizing:border-box;width:114px;height:40px;line-height:38px;float:right;background:url(../images/view_icon.png) no-repeat 13px center;padding-left:43px}
+.orderList{width:1200px;box-sizing:border-box;margin-bottom:120px;clear:both}
+.orderList .orderList_top_contents{width:1200px;height:50px;border-top:2px solid #424852;border-bottom:1px solid #e4e8eb;background:#f4f4f4}
+.orderList .orderList_contents{width:1200px;height:200px;border-bottom:1px solid #e4e8eb}
+.orderList .orderNum{float:left;width:400px;height:50px;padding-top:13px;box-sizing:border-box;margin-right:630px}
+.orderList .orderNum p{float:left;margin-right:20px;margin-left:20px;font-weight:600}
+.orderList .orderDate{height:50px;padding-top:13px;box-sizing:border-box}
+.orderList .orderDate p{font-weight:600;float:left;margin-right:20px}
+.orderList .orderList_contents .productInfo{float:left;margin-right:20px}
+.orderList .orderList_contents .productThum{width:120px;height:120px;border:1px solid #e4e8eb;margin-left:20px;float:left;margin-right:30px;position:relative}
+.orderList .orderList_contents .productName{width:600px;height:30px;margin-top:5px;margin-bottom:20px;font-size:17px}
+.orderList .orderList_contents .productPrice .price{font-weight:600;font-size:22px}
+.orderList .orderList_contents .productState{text-align:center;width:600px;margin-left:300px}
+.orderList .orderList_contents .productState .State{font-size:20px;font-weight:500;margin-top:50px;position:relative}
+.orderList .orderList_contents .productState .gray{margin-left:30px!important;font-size:20px;font-weight:500;margin-top:50px;position:relative;color:#a9afba}
+.orderList .orderList_contents .orderDetailButton{border:1px solid #424852;box-sizing:border-box;font-size:16px;font-weight:400;margin-left:240px;margin-top:-40px;position:absolute;width:114px;height:40px;line-height:38px}
+table.couponlist,table.pointlist{width:100%}
+table.couponlist tr th,table.pointlist tr th{border-top:2px solid #424852;border-bottom:1px solid #e4e8eb;height:50px;background:#f4f4f4}
+table.couponlist tr td,table.pointlist tr td{height:65px;text-align:center;font-weight:300;font-size:17px;border-bottom:1px solid #e4e8eb}
+table.couponlist tr td span,table.pointlist tr td span{font-weight:500}
+table.couponlist tr td a{border:1px solid;box-sizing:border-box;padding:5px 10px;border-radius:100px}
+table tr td.bold{font-weight:600}
+ul.tab{width:1200px}
+ul.tab li{float:left;height:60px;width:300px;font-size:18px;border:1px solid #e4e8eb;text-align:center;margin-left:-1px;box-sizing:border-box;line-height:60px;cursor:pointer}
+ul.tab li.active{background:#89c053;color:#fff}
+p.none_content{color:#c1c1c1;font-size:24px;width:1200px;height:200px;line-height:200px;text-align:center}

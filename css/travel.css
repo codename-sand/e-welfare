@@ -1,0 +1,47 @@
+@charset "utf-8";
+.bx-pager a.active{background:#e8553e}
+.item_four_wrap{margin-bottom:70px}
+.item_four .name{height:50px}
+.item_golf_wrap{margin-bottom:70px;width:1220px}
+.item_golf_wrap .item_golf{float:left;width:285px;border:1px solid #e4e8eb;margin-right:20px;margin-bottom:20px;box-sizing:border-box}
+.item_golf_wrap .item_golf a{display:block;padding-bottom:10px;box-sizing:border-box}
+.item_golf_wrap .item_golf .img{width:100%;height:180px;margin-bottom:20px;background-size:cover;background-position:center center}
+.item_golf_wrap .item_golf .point{padding:0 15px}
+.item_golf_wrap .item_golf .name{font-weight:500;line-height:25px;height:50px;padding:0 15px}
+.sub_link{width:1200px;height:240px;background:#efefef}
+.sub_link a{display:block;width:100%;height:100%}
+.selectbox{margin-bottom:20px}
+select{width:140px;height:25px;border:1px solid #e4e8eb;box-sizing:border-box;float:right;font-size:13px;padding-left:7px;outline-width:0;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../images/select.png) no-repeat right center}
+select::-ms-expand{display:none}
+.formClass{width:1000px;margin-left:100px}
+.formClass .content3_title,.formClass .content8_title{width:100%;border-bottom:1px solid #636c77;line-height:50px;margin-bottom:70px}
+.formClass .infoLine{clear:both;display:block;margin-bottom:16px}
+.formClass .infoLine > label{font-weight:500;line-height:60px;display:inline-block;width:140px;float:left}
+.formClass input[type="submit"]{position:relative;clear:both;display:block;width:400px;height:60px;font-size:20px;font-weight:500;color:#89c053;background:none;margin-top:100px;margin-left:300px;font-family:inherit;border-width:2px}
+.infoLine .view_coupon_button{width:100px;height:44px;font-size:14px;font-weight:600;position:absolute;margin-left:20px;margin-top:10px;color:#fff}
+.mg{padding-top:25px}
+.notice{clear:both;display:block;margin-left:140px;padding-top:30px}
+.datemargin{margin-left:-3px}
+.workshopTab{margin-top:40px}
+.workshopTab tr td{height:60px;font-size:16px;font-weight:400;color:#a9afba}
+.all_contents .box{width:1220px}
+.all_contents .box .item_four h6{width:50px;height:24px;text-align:center;float:left;margin-right:5px;font-family:inherit;font-weight:600;padding-top:3px}
+.all_contents .box .item_four .name{clear:both;height:30px;font-size:18px;width:253px;padding-top:4px}
+.all_contents .box .item_four .tag{width:253px;height:40px;color:#999;font-size:14px;padding-top:-2px}
+.all_contents .box .item_four .tag .hashTag{margin-right:10px;float:left}
+.all_contents .box .item_four .place{font-size:14px;width:80px;height:20px;background-image:url(../images/loc_icon.png);margin-top:10px;padding-left:18px;box-sizing:border-box;float:left}
+.all_contents .box .item_four .price{display:inline-block;margin-top:-20px}
+.selectbox{margin-bottom:20px}
+select{width:120px;height:25px;border:1px solid #e4e8eb;box-sizing:border-box;float:right;font-size:13px;padding-left:7px;outline-width:0;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../images/select.png) no-repeat right center}
+select::-ms-expand{display:none}
+select.city{margin-left:10px}
+.box .articleWrap{width:1216px}
+.box article{float:left;width:592px;margin-right:16px;margin-bottom:16px;box-sizing:border-box;padding:20px;cursor:pointer}
+.box article img{margin-bottom:20px;display:block}
+.box article h6{float:left;width:450px}
+.box article h3{margin:3px 0 10px;float:left;width:450px}
+.box article p.date{font-weight:500;float:left;width:450px}
+.box article p.date span{font-weight:400;letter-spacing:0;color:#636c77;margin-left:5px}
+.box article p.count{float:right}
+.box article p.count span{font-weight:500;letter-spacing:0;margin-left:3px}
+.event_detail .ribbon{background:url(../images/ribbon_red.png) no-repeat center center!important;width:200px;line-height:36px;color:#fff;text-align:center;letter-spacing:0;margin:100px auto 50px}

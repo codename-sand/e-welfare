@@ -1,0 +1,21 @@
+@charset "utf-8";
+.comment .vote_title{margin-bottom:20px}
+.comment .vote_title img{float:left;margin-right:10px}
+.comment .vote_title p{float:left;font-weight:500;font-size:20px;line-height:35px}
+.comment .vote_title p.count{float:right;font-size:16px;font-weight:400}
+.comment .vote{border-top:2px solid #424852;border-bottom:2px solid #424852;padding:20px 0 20px 20px;box-sizing:border-box;position:relative}
+.comment .vote .option{margin-top:20px}
+.comment .vote .option:first-child{margin-top:0}
+.comment .vote .radio_wrap{width:20px;height:20px;position:relative;float:left;margin-right:10px}
+.comment .vote input[type="radio"]{width:20px;height:20px;position:absolute;top:0;left:0;margin:0!important;opacity:0;z-index:2}
+.comment .vote .radio_btn{width:20px;height:20px;background:url(../images/radio_off.png);position:absolute;top:0;left:0}
+.comment .vote input[type="radio"]:checked + .radio_btn{background:url(../images/radio_on.png)}
+.comment .vote .option label{float:left;line-height:20px;width:200px}
+.comment .vote .option .graph{float:left;width:700px;height:10px;margin-top:5px;position:relative;display:none}
+.comment .vote .option .graph .color{position:absolute;height:100%;background-color:#a9afba}
+.comment .vote .option .graph div.active{background-color:#e8553e}
+.comment .vote .option .graph .count{position:absolute;top:-5px;margin-left:10px;width:100px;line-height:20px;color:#a9afba}
+.comment .vote .option .graph p.active{color:#e8553e}
+.comment .vote .vote_btn{width:96px;height:40px;background:none;box-sizing:border-box;transition:.3s;position:absolute;right:0;top:50%;margin-top:-20px}
+.comment .vote .vote_btn:hover{color:#fff!important;background:#e8553e}
+.comment .vote .complete{width:96px;height:40px;line-height:40px;box-sizing:border-box;position:absolute;right:0;top:50%;margin-top:-20px;text-align:center;background-color:#a9afba;color:#fff;display:none}

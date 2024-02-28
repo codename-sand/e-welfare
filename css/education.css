@@ -1,0 +1,10 @@
+@charset "utf-8";
+.bx-pager a.active{background:#4a88da}
+.content article{margin-top:70px}
+.content article .sub_link{width:1200px;height:240px;background:#efefef}
+.content article .sub_link a{display:block;width:100%;height:100%}
+.content7 form{background:rgba(255,255,255,0.2);width:1000px;margin-left:100px}
+.content7 form .content7_title{width:100%;border-bottom:1px solid #636c77;line-height:50px;margin-bottom:70px}
+.content7 form .infoLine{clear:both;display:block;margin-bottom:16px}
+.content7 form .infoLine > label{font-weight:500;line-height:60px;display:inline-block;width:140px;float:left}
+.content7 input[type="submit"]{position:relative;clear:both;display:block;width:400px;height:60px;font-size:20px;font-weight:500;color:#4a88da;background:none;margin-top:150px;margin-left:300px;border-width:2px}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script src="js/input.js"></script>
+</head>
+<style type="text/css">
+	body {
+		width : 440px;
+		min-width: 440px;
+		padding : 20px;
+		box-sizing: border-box;
+		overflow-x: hidden;
+		position: relative;
+	}
+	 
+	.pop_title {
+		margin-bottom: 5px;
+	}
+
+	.econ_thum {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		margin-bottom: 30px;
+		margin-left: 50px;
+	}
+	
+	.productInfo {
+		line-height: 30px;
+	}
+	
+	.productInfo .subInfo {
+		margin-top: 10px;
+	}
+	.productInfo .subInfo:nth-child(6) {
+		margin-bottom: 50px;
+	}
+
+	.productInfo .subInfo .price {
+		font-weight: 500;
+		line-height: 20px;
+		font-size: 14px;
+		text-align: right;
+		margin-right: 10px;
+
+	}
+
+	.productInfo .subInfo .sub_infoTitle {
+		float: left;
+		width : 100px;
+	}
+	
+	.productInfo .subInfo2 {
+		margin-top: 10px;
+	}
+	.productInfo .subInfo2:nth-child(6) {
+		margin-bottom: 50px;
+	}
+
+	.productInfo .subInfo2 .price {
+		font-weight: 500;
+		line-height: 28px;
+		font-size: 14px;
+
+	}
+
+	.productInfo .subInfo2 .sub_infoTitle {
+		float: left;
+		width : 100px;
+	}
+
+	.line {
+		border-width: 1px 0px 0px 0px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.info_title {
+		font-weight: 600;
+		width: 100%;
+		border-bottom: 1px solid #424852;
+		line-height: 40px;
+		margin-bottom: 20px;
+		position: relative;
+		margin-top: 20px;
+	}
+	
+	.info {
+		font-size: 12px;
+	}
+	
+	.right_lo {
+		text-align: right;
+		margin-right: 10px;
+	}
+	.econ_input input::-webkit-input-placeholder{
+		color : #9579da !important; 
+		font-weight: 500;
+	}
+	.econ_input input:-ms-input-placeholder{
+		color : #9579da !important; 
+		font-weight: 500;
+	}
+	.econ_input input::-moz-placeholder {
+		color : #9579da !important; 
+		font-weight: 500;
+	}
+	
+	.right_button {
+		display: block;
+		margin-left: 314px;
+		width : 80px;
+		height: 30px;
+		background: none;
+	}
+
+	.bt {
+		width : 400px;
+		height: 60px;
+		font-size: 20px;
+		font-weight: 600;
+		margin-top: 30px;
+		letter-spacing: -1px;
+		background : none;
+		border-width: 2px;
+		font-family: inherit;
+	}
+
+
+	.orderNumber {
+		float: left;
+		width : 280px;
+		font-weight: 500;
+		color : #a9afba;
+	}
+	
+	.orderDate {
+		margin-bottom: 10px;
+		font-weight: 400;
+		color : #a9afba;
+	}
+
+	.lineBlack {
+		border : 1px solid #e4e8eb;
+		border-width: 1px 0px 0px 0px;
+		margin-bottom: 30px;
+	}
+</style>
+<body>
+	<form>
+	<div class="bg">
+		<!-- 주문내역 상세보기에 들어갈 수 있는거 다 넣어두었으니 상황별로 가려주고 사용해주세요! -->
+		<h4 class="egreen pop_title">주문내역 상세보기</h4>
+		<h6 class="orderNumber">주문번호 <span class="number">396</span></h6>
+		<h6 class="orderDate">주문날짜 <span class="date">2017-07-11</span></h6>
+		<hr class="lineBlack">
+		<div class="border_gray econ_thum" style="background-image: url('');">
+		</div>
+		
+		<div class="productInfo">
+			<h6 class="egreen ellipsis">'유대인'과 천재들의 창의성과 '유대인'과 천재들의 창의성과</h6>
+			<h4 class="black ">천재의 생각법</h4>
+
+			<div class="subInfo">
+				<p class="sub_infoTitle black">유효기간</p>
+				<h5 class="black price">60일</h5>
+			</div>
+			<div class="subInfo">
+				<p class="sub_infoTitle black">상품수량</p>
+				<h5 class="black price">1개</h5>
+			</div>
+			<div class="subInfo">
+				<p class="sub_infoTitle black">상품가격</p>
+				<h5 class="black price">9,000원</h5>
+			</div>
+			<div class="subInfo">
+				<p class="sub_infoTitle black">배송비</p>
+				<h5 class="black price">5,000원</h5>
+			</div>
+
+			<div class="line border_gray"></div>
+
+			<div class="subInfo">
+				<h4 class="sub_infoTitle black">결제금액</h4>
+				<h4 class="egreen right_lo" >9,000원</h4>
+			</div>
+
+			<div class="line border_gray"></div>
+		
+				
+		<div class="userinfo">
+			<p class="info_title">주문 상세 정보</p>
+		</div>
+		
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">주문 상태</p>
+			<h5 class="black price">입금 대기중</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">받는 사람</p>
+			<h5 class="black price">가나다</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">주소</p>
+			<h5 class="black price">서울 강남구 강남대로 240(도곡동, 양재 SK허브프리모)1</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">전화 번호</p>
+			<h5 class="black price">010-1234-5678</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">은행명</p>
+			<h5 class="black price">국민은행</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">계좌 번호</p>
+			<h5 class="black price">99579085818352</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">예금주</p>
+			<h5 class="black price">(주)올앳</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">입금자명</p>
+			<h5 class="black price">홍단장</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">입금 기한일</p>
+			<h5 class="black price">20170216</h5>
+		</div>
+		<div class="subInfo2">
+			<p class="sub_infoTitle black">입금 예정일</p>
+			<h5 class="black price">20170211</h5>
+		</div>
+		</div>
+
+		<button class="border_egreen egreen bt">
+			취소하기
+		</button>
+		</form>
+	</div>
+</body>
+</html>

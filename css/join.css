@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{font-family:inherit}
+section .notice{font-size:15px;font-weight:300;margin-top:60px;text-align:center;width:550px;height:70px;margin-left:330px;border:1px solid #a9afba;box-sizing:border-box;padding:12px}
+section form{box-sizing:border-box;margin-top:80px;width:550px;margin-left:330px}
+section form label,.label_text{font-weight:400;margin-bottom:10px;letter-spacing:0;display:block;color:#424852}
+section form input[type="text"]{width:550px;height:50px;padding-left:20px;border:1px solid #ccc;box-sizing:border-box;display:block;margin-bottom:30px}
+.label_userid .red{color:#e60000;font-size:15px;margin-top:-30px;margin-bottom:30px;display:none}
+section form input[id="birth"]{width:200px;height:50px;padding-left:20px;border:1px solid #ccc;box-sizing:border-box;float:left;margin-bottom:30px}
+section form select{width:176px;height:50px;padding-left:20px;border:1px solid #ccc;box-sizing:border-box;float:left;margin-bottom:30px;margin-left:-1px;cursor:pointer}
+section form input[id="day"]{width:176px;height:50px;padding-left:20px;border:1px solid #ccc;box-sizing:border-box;float:left;margin-bottom:30px;margin-left:-1px}
+section form .label_space{clear:both}
+section form .label_gender p,section form .label_space p{font-weight:400;margin-bottom:10px;letter-spacing:0;display:block}
+section form .label_gender input,section form .label_space input{position:absolute;left:-9999px;opacity:0}
+section form .label_gender label,section form .label_space label{font-weight:400;color:#ccc;margin-bottom:50px;letter-spacing:0;display:block;width:275px;height:50px;line-height:48px;text-align:center;border:1px solid #ccc;box-sizing:border-box;float:left;position:relative}
+section form .label_gender label[for="gender2"],section form .label_space label[for="foreign"]{margin-left:-1px}
+section form .label_gender input:checked + label,section form .label_space input:checked + label{color:#9ed26a;border:2px solid #9ed26a;z-index:99;font-weight:500;line-height:46px}
+section form input[type="tel"]{width:481px;height:50px;padding-left:20px;border:1px solid #ccc;box-sizing:border-box;float:left;margin-bottom:30px}
+section form .btn{width:70px;height:50px;margin-left:-1px;margin-bottom:30px;float:left;position:relative}
+section form input[type="button"]{width:70px;height:50px;border:1px solid #ccc;box-sizing:border-box;background:none;color:#ccc;position:absolute;top:0;left:0;cursor:pointer}
+section form .btn .active{border:1px solid #f5ab35;color:#f5ab35;display:none}
+section form .btn .resend{border:1px solid #f5ab35;color:#f5ab35;display:none}
+section form input[id="authentication"]{width:481px;height:50px;padding-left:20px;border:1px solid #ccc;box-sizing:border-box;float:left;margin-bottom:30px}
+section form input[type="submit"]{width:550px;height:60px;display:block;font-size:24px;color:#fff;font-weight:500;background:#f5ab35;margin-top:20px;font-family:inherit}
+section .intro_title{text-align:center;margin-top:200px}
+section .intro_title2{text-align:center;margin-top:160px}
+section .intro_sub_text{text-align:center;margin-top:16px;font-size:20px;font-weight:300}
+.homeButton{width:190px;height:60px;font-size:20px;font-weight:500;background-color:#fff;margin-left:400px;margin-top:70px;border-width:2px;font-family:inherit}
+.loginButton{width:190px;height:60px;font-size:20px;font-weight:500;color:#fff;margin-left:20px;font-family:inherit}

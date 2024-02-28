@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script src="js/input.js"></script>
+</head>
+<style type="text/css">
+	body {
+		width : 440px;
+		min-width: 440px;
+		padding : 20px;.playInfo .place-name
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+	
+	.pop_title {
+		margin-bottom: 30px;
+	}
+
+	.playInfo {
+		width: 288px;
+		height: 150px;
+		position: relative;
+		margin-left : 50px;
+		margin-bottom: 30px;
+	}
+
+	.playInfo .group {
+		margin : 10px;
+		float: left;
+	}
+
+	.group img {
+		display: block;
+	}
+	.group span {
+		margin-left: 35px;
+	}
+
+	.playInfo .placeinfo {
+		font-size: 16px;
+		font-weight: 600;
+		margin-top: 80px;
+		margin-left: 14px;
+		position: absolute;
+	}
+
+	.playInfo .layout {
+		margin-left: 64px;
+	}
+
+	.info_title {
+		font-weight: 600;
+		width: 100%;
+		border-bottom: 1px solid #424852;
+		line-height: 40px;
+		margin-bottom: 20px;
+		position: relative;
+		margin-top: 20px;
+	}
+
+	.input .input_set {
+		margin-top: 10px;
+		position: relative;
+	}
+	.input .read {
+		width : 310px;
+		height: 44px;
+		background-color: #fbfbfb;
+		position: absolute;
+	}
+	
+	.input label {
+		line-height: 44px;
+		color : #a9afba;
+		font-weight: 400;
+		margin-right: 10px;
+		position: relative;
+	}
+	
+	/*.input .write {
+		width : 310px;
+		height: 44px;
+		position: absolute;
+	}*/
+
+	input {
+		padding-left: 20px;
+		font-size: 16px;
+		color : #424852;
+		font-weight: 300;
+	}
+	
+	.info {
+		font-size: 12px;
+		color : #a9afba;
+	}
+
+	.bt {
+		width : 400px;
+		height: 60px;
+		font-size: 20px;
+		font-weight: 600;
+		color : #4a88da;
+		margin-top: 30px;
+		letter-spacing: -1px;
+		background : none;
+	}
+	
+	input[type="number"]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0;}
+	input[type=number] {-moz-appearance: textfield; box-sizing: border-box; outline-width: 0; font-family: inherit; width:330px; height: 44px; position: absolute; }
+
+	.num-nav {position: absolute; right: 0; top: 0; height: 44px;}
+	.num-button {position: relative; cursor: pointer; width: 44px; text-align: center; font-size: 0; left:-49px; border : 1px solid #e4e8eb;}
+	.num-button.num-up {position: absolute; height: 20px; top: 0; width: 44px; background: url(images/input_up.png);}
+	.num-button.num-down {position: absolute; bottom: 0px; height: 21px; width: 44px; background: url(images/input_down.png); }
+	.num-down:hover {
+		background: url(images/input_down_hover.png); 
+	}
+	.num-up:hover {
+		background: url(images/input_up_hover.png); 
+	}
+</style>
+<body>
+	<form>
+		
+	
+	<div class="bg">
+		<h4 class="blue pop_title">프로<span>야구</span> 예매하기</h4>
+		
+		<div class="playInfo border_gray" style="background-image: url('images/sports_bg.png');">
+			<div class="group">
+				<img src="images/ticket_sports1.png">
+				<span class="black">한화</span>
+			</div>
+			<span class="placeinfo">문학ㅇㅎㄻㅎㄷㅁㄻㄷㅈㄱㅁㅈㄷ</span>
+			<div class="group layout">
+				<img src="images/ticket_sports2.png">
+				<span class="black">기아</span>
+			</div>
+		</div>
+		
+		<div class="userinfo">
+			<p class="info_title">예약 정보</p>
+		</div>
+		
+		<div class="input">
+			<div class="input_set">
+				<label style="margin-right: 40px;">이름</label>
+				<input type="text" class="read border_gray" readonly>
+			</div>
+
+			<div class="input_set">
+				<label>전화 번호</label>
+				<input type="text" class="read border_gray" readonly>
+			</div>
+
+			<div class="input_set">
+				<label>경기 날짜</label>
+				<input type="text" class="read border_gray" readonly>
+			</div>
+		</div>
+				
+		<div class="userinfo">
+			<p class="info_title">인원 정보</p>
+		</div>
+
+		<div class="input">
+			<div class="input_set num">
+				<label style="margin-right: 40px;">대인</label>
+				<input type="number" class="border_gray" value="1" min="1">
+			</div>
+
+			<div class="input_set num">
+				<label style="margin-right: 40px;">소인</label>
+				<input type="number" class="border_gray" value="0" min="0">
+			</div>
+		</div>
+		
+		<div class="userinfo">
+			<p class="info_title">이용시 주의 사항</p>
+		</div>
+		
+		<p class="info">
+			*2인 예매시 본인무료, 동반인 정상결제 입니다. [연 12회 / 매월 1회씩 사용가능]<br>
+			*프로스포츠 경기는 2일전까지 예약이 가능하며, 이용 수량이 조기 마감될 경우
+  			예약이 불가합니다.<br>
+			*프로스포츠 1+1 예매서비스는 비지정석 (일반석)에 한해 제공되며, 기타 할인을
+ 			 함께 받으실 수 없습니다.<br>
+			*예매번호 분실시에는 티켓 교환이 불가하오니, 예매번호 관리에 주의하시기 바랍니다.<br>
+			*취소시 일정의 수수료가 발생할 수 있으며, 발권 받은 티켓은 취소·교환·환불이
+  			불가합니다.<br>
+			*우천 등으로 주최즉에 의한 경기 취소시 환불 및 재예약이 가능하오니 참고바랍니다.<br>
+		</p>
+
+		<button class="border_blue bt">
+			예약신청
+		</button>
+		</form>
+	</div>
+</body>
+</html>

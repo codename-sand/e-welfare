@@ -1,0 +1,30 @@
+@charset "utf-8";
+.bx-pager a.active{background:#89c053}
+.articleWrap{width:1216px}
+article{float:left;width:592px;margin-right:16px;margin-bottom:16px;box-sizing:border-box;padding:20px;cursor:pointer}
+article .img{width:550px;height:254px;margin-bottom:20px;display:block;background-color:gray;background-size:cover;background-position:center center}
+article h6{float:left;width:450px}
+article h3{margin:3px 0 10px;float:left;width:450px}
+article p.name{font-weight:500;float:left;width:450px}
+.selectbox{margin-bottom:20px}
+select{width:120px;height:25px;border:1px solid #e4e8eb;box-sizing:border-box;float:right;font-size:13px;padding-left:7px;outline-width:0;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../images/select.png) no-repeat right center}
+select::-ms-expand{display:none}
+select.city{margin-left:10px}
+.item_medical_wrap{width:1220px}
+.item_medical{float:left;width:285px;border:1px solid #e4e8eb;margin-right:20px;margin-bottom:20px;box-sizing:border-box}
+.item_medical a{display:block;padding-bottom:20px;box-sizing:border-box;position:relative}
+.item_medical_wrap .best{border:1px solid #89c053}
+.item_medical_wrap .best a:before{content:'';width:36px;height:36px;position:absolute;background:url(../images/best_tag.png)}
+.item_medical .img{width:283px;height:210px;margin-bottom:20px;background-size:cover;background-position:center center}
+.item_medical .name{font-weight:500;text-align:center;padding:0 30px;box-sizing:border-box;overflow:hidden;line-height:25px;height:25px;margin-bottom:5px}
+.item_medical .small{text-align:center;font-size:14px;color:#636c77;padding:0 30px;box-sizing:border-box;word-break:keep-all;line-height:20px;height:40px;overflow:hidden;margin-bottom:15px}
+.item_medical .star{text-align:center;font-size:14px;color:#636c77;line-height:20px}
+.item_medical .star img{margin-left:15px}
+.formClass{width:1000px;margin-left:100px}
+.formClass .content3_title,.formClass .content8_title{width:100%;border-bottom:1px solid #636c77;line-height:50px;margin-bottom:70px}
+.formClass .infoLine{clear:both;display:block;margin-bottom:16px}
+.formClass .infoLine > label{font-weight:500;line-height:60px;display:inline-block;width:140px;float:left}
+.formClass input[type="submit"]{position:relative;clear:both;display:block;width:400px;height:60px;font-size:20px;font-weight:500;color:#89c053;background:none;margin-top:130px;margin-left:300px;border-width:2px}
+.infoLine .view_coupon_button{width:100px;height:44px;font-size:14px;font-weight:600;position:absolute;margin-left:20px;margin-top:10px;color:#fff}
+.mg{padding-top:25px}
+.notice{clear:both;display:block;margin-left:140px;padding-top:30px}

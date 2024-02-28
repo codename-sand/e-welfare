@@ -1,0 +1,44 @@
+@charset "utf-8";
+.title > div{margin-bottom:100px}
+ul.step{margin-bottom:30px}
+ul.step li{float:right;margin-left:10px;color:#a9b0bb}
+ul.step li.active{color:#424852;font-weight:500}
+ul.step li.arrow{font-family:'Dotum';margin-top:6px}
+ul.step li span{font-weight:700;letter-spacing:0;font-size:18px;margin-right:3px}
+section .cart_list > h4{margin-bottom:10px}
+section table{width:100%;border-top:2px solid #424852;margin-bottom:70px}
+section table tr th{font-weight:500;border-bottom:1px solid #e4e8eb;height:50px}
+section table tr td{border-bottom:1px solid #e4e8eb;text-align:center;padding:40px 0}
+section table tr td.check{width:60px}
+section table tr td.price{width:120px}
+section table tr td.account{width:120px}
+section table tr td.delivery_price{width:120px}
+section table tr td.total_price{width:120px;font-weight:600}
+section table tr td.select{width:120px}
+section table tr td.info{padding-left:20px}
+section table tr td.info .img{width:100px;height:150px;box-sizing:border-box;display:table-cell;vertical-align:middle;background-size:cover;background-position:center center}
+section table tr td.info .img_square{height:100px}
+section table tr td.info p{display:table-cell;vertical-align:middle;padding:0 20px;text-align:left}
+section table tr td.info p span{display:block;font-size:14px;color:#9ed26a;margin-top:7px}
+.select a{display:block;width:90px;height:30px;box-sizing:border-box;line-height:28px;margin:0 auto;font-weight:500}
+.select a.bg_black{color:#fff;margin-top:10px}
+section table tr.totals td{text-align:left;background-color:#f7f7f7;font-size:18px;padding:20px}
+section table tr.totals td p{float:right;margin:0 10px}
+section table tr.totals td p span{font-weight:600;margin-left:7px}
+section table tr.totals td img{float:right;margin-top:5px}
+.check_wrap{width:20px;height:20px;position:relative;margin-left:20px}
+input[type="checkbox"]{width:20px;height:20px;position:absolute;top:0;left:0;margin:0!important;opacity:0;z-index:2;cursor:pointer}
+.check_btn{width:20px;height:20px;background:url(../images/checkbox_none.png);position:absolute;top:0;left:0}
+input[type="checkbox"]:checked + .check_btn{background:url(../images/checkbox_on.png)}
+section table tr td .num{position:relative}
+section table tr td .num input[type="number"]{-moz-appearance:textfield;width:100px;height:44px;border:1px solid #e4e8eb;box-sizing:border-box;outline-width:0;padding-left:15px;font-family:inherit}
+input[type="number"]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.num-nav{position:absolute;right:47px;top:0;height:44px}
+.num-button{cursor:pointer;width:35px;text-align:center;font-size:0;border:1px solid #e4e8eb}
+.num-button.num-up{position:absolute;height:20px;top:0;width:35px;background:url(../images/input_up.png) center center}
+.num-button.num-down{position:absolute;bottom:0;height:21px;width:35px;background:url(../images/input_down.png) center center}
+.total_info td{font-size:18px}
+.total_info td span{display:block;font-weight:600;font-size:22px}
+.order_btn{margin:0 auto;width:390px}
+input.all_order{float:left;color:#fff;margin-left:10px;width:190px;height:60px;font-size:20px}
+input.select_order{float:left;border-width:2px;background:#fff;box-sizing:border-box;width:190px;height:60px;font-size:20px}

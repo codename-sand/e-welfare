@@ -1,0 +1,34 @@
+@charset "utf-8";
+.bx-pager a.active{background:#4a88da}
+.box_office{width:1210px;display:block;margin-top:30px;margin-bottom:70px}
+.box_office .movie{width:232px;height:440px;position:relative;float:left;margin-right:10px;margin-bottom:10px;box-sizing:border-box}
+.box_office .movie .poster{width:232px;height:330px;position:relative}
+.box_office .movie .movie_info{width:200px;height:78px;padding:16px}
+.box_office .movie_info .agetag{width:24px;height:24px;position:relative;margin-right:10px;float:left}
+.box_office .movie_info > h4{line-height:24px;margin-bottom:16px}
+.box_office .movie_info .take_button{width:190px;height:36px;font-size:14px;font-weight:600;background-color:#fff}
+.box_office .movie_info .take_button:hover{background-color:#4a88da;color:#fff!important}
+.item_ten .img_ticket{width:111px;height:156px;background-size:cover;background-position:center center}
+.item_ten_wrap:nth-child(3){margin-bottom:68px}
+.item_ten{padding-bottom:0}
+.item_ten .ticket_tag{width:90px;padding:10px;padding-bottom:4px!important}
+.item_ten .ticket_best_title{width:90px;padding:10px;padding-bottom:0!important}
+.sub_title .more{float:right;font-size:14px;margin-top:10px;background:url(../images/arrow.png) no-repeat right center;padding-right:25px}
+.sports{margin-bottom:68px}
+.sports .textTab .dailycss{font-size:16px;font-weight:300;padding-right:20px;padding-left:20px;border-right:1px solid #cad0d7;line-height:16px;cursor:pointer;background:none!important;margin-bottom:24px}
+.sports .textTab .dailycss.active{color:#4a88da;font-weight:600}
+.sports .textTab .dailycss:nth-child(1){padding-left:0!important}
+.sports .textTab .dailycss:nth-child(7){border-right:none}
+.sports .textTab .dailycss:nth-child(9),.sports .textTab .dailycss:nth-child(17){padding-left:0!important}
+.sports .tabContents{width:1220px;margin-bottom:60px}
+.sports .tabContents .group{width:288px;box-sizing:border-box;padding:16px;background-image:url(../images/sports_bg.png);float:left;margin:10px 16px 16px 0}
+.sports .tabContents .group span.groupName{width:100px;height:30px;box-sizing:border-box;padding:0 10px;display:block;text-align:center}
+.sports .tabContents .group .sports_group{float:left;width:100px;height:150px;box-sizing:border-box;text-align:center}
+.sports .tabContents .group .sports_group img.groupLogo{width:100px;height:100px;box-sizing:border-box}
+.sports .tabContents .group .right{float:right}
+.sports .tabContents .group .place{width:54px;text-align:center;font-size:14px;float:left;font-weight:600;margin-top:85px}
+.sports .tabContents .group .place span.name{display:block;line-height:20px;height:40px;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;overflow:hidden}
+.sports .tabContents .group .place span.time{margin-top:-13px;display:block}
+.sports .tabContents .group .sports_button{width:254px;height:36px;background-color:#fff;margin-top:10px}
+.sports .tabContents .group .sports_button:hover{background-color:#4a88da;color:#fff!important}
+.sports .tabContents .none_sports{width:1200px;height:200px;border-bottom:1px solid #e4e8eb;text-align:center;line-height:160px;font-size:18px;color:#e4e8eb;font-weight:300}

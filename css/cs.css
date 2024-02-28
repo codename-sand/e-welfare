@@ -1,0 +1,37 @@
+@charset "utf-8";
+.title{margin-bottom:100px}
+.subtab > div{width:599px;height:60px;border:1px solid #e4e8eb;text-align:center;font-size:16px;color:#a9afba;float:left;margin-left:-1px;margin-top:-1px;box-sizing:border-box}
+.content{width:1200px;margin:80px auto 0}
+.content .detail_content_title{font-weight:600;padding-left:15px;border-left:4px solid #424852;line-height:18px;margin-bottom:50px}
+.content .detail_content_title a{font-size:16px;font-weight:400;color:#424852;border:1px solid #424852;box-sizing:border-box;width:114px;height:40px;line-height:38px;float:right;background:url(../images/write_icon.png) no-repeat 13px center;padding-left:43px}
+.content .content1 table{border-top:2px solid #424852}
+.content .content1 table tr.notice_title{cursor:pointer}
+.content .content1 table tr th{height:50px;border-bottom:1px solid #e4e8eb;font-weight:500}
+.content .content1 table tr td{height:80px;border-bottom:1px solid #e4e8eb;text-align:center}
+.content .content1 table tr td.text{text-align:left}
+.content .content1 table tr.notice_content td{text-align:left;background:#fcfcfc;padding:30px 100px;height:200px;vertical-align:top;box-sizing:border-box}
+.content ul.pager{text-align:center;margin-top:50px}
+.content ul.pager li{display:inline;margin-left:30px}
+.content ul.pager li:first-child{margin:0}
+.content ul.pager li a{font-size:15px}
+.content ul.pager li.active a{color:#9ed26a;font-weight:500}
+.content .content2 table{width:100%;border-top:2px solid #424852}
+.content .content2 table tr.answer{background:#fcfcfc}
+.content .content2 table td{height:120px;border-bottom:1px solid #e4e8eb;padding:20px 0;box-sizing:border-box}
+.content .content2 table td.kind{width:120px}
+.content .content2 table td.kind p{width:80px;height:32px;box-sizing:border-box;line-height:30px;text-align:center;margin:0 auto}
+.content .content2 table td.kind p.waiting_kind{border:1px solid #a9afba;color:#a9afba}
+.content .content2 table td.text{padding-left:20px;padding-right:100px;box-sizing:border-box;word-break:keep-all}
+.content .content2 table td.info{width:140px}
+.content .content2 table td.info p{color:#a9afba}
+.content .content2 table td.info p span{color:#424852}
+.content .content2 table tr.no_list td{color:#a9afba;font-size:18px;text-align:center}
+.write_popup{position:fixed;width:100%;height:100%;top:0;left:0;z-index:9999}
+.write_box{width:750px;height:475px;margin:0 auto;background-color:#fff;position:relative;top:20%;box-sizing:border-box;border:1px solid #e4e8eb;padding:40px 30px 30px}
+.write_box a{position:absolute;top:30px;right:30px}
+.write_box h4{font-weight:600;margin-bottom:25px}
+.write_box label{display:block;font-weight:500;margin-bottom:10px}
+.write_box select{width:688px;height:44px;border:1px solid #e4e8eb;box-sizing:border-box;margin-bottom:30px;outline-width:0;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../images/select_big.png) no-repeat right center;padding-left:15px}
+.write_box select::-ms-expand{display:none}
+.write_box textarea{width:688px;border:1px solid #e4e8eb;box-sizing:border-box;resize:none;height:130px;padding:15px 20px}
+.write_box input[type="submit"]{width:120px;height:48px;display:block;color:#fff;font-weight:500;margin:30px auto 0}

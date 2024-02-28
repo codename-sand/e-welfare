@@ -1,0 +1,140 @@
+@charset "utf-8";
+header{position:absolute;width:100%;border-bottom:1px solid rgba(255,255,255,0.45);z-index:999}
+.main_visual{position:relative;height:720px}
+.main_visual .main_banner li{height:720px;width:100%}
+.main_visual .main_banner li a{height:720px;width:100%;display:block;background-position:center center;background-color:gray}
+.main_visual .pager_wrap{position:absolute;top:50%;z-index:99;width:240px;left:50%;margin-left:370px}
+.main_visual .main_pager{width:240px;position:relative;top:-50%;margin-top:40px}
+.main_visual .main_pager li{float:right;clear:both;width:240px;border-top:1px solid rgba(255,255,255,0.5);padding:15px 0}
+.main_visual .main_pager li:first-child{border:0}
+.main_visual .main_pager li a{display:block;color:#fff;letter-spacing:0;line-height:20px;word-break:keep-all;height:40px;overflow:hidden;opacity:.5}
+.main_visual .main_pager a.active{opacity:1}
+.main_visual .main_pager li a .thumb{width:40px;height:40px;float:left;margin-right:15px;background-size:cover}
+.main_visual .main_pager li a p{float:left;width:140px}
+.content{clear:both;margin-top:100px}
+.content .title{margin-bottom:30px}
+.content .title h3.border{display:inline;font-weight:600;margin-right:3px}
+.content .title h3.color{font-weight:600;margin-right:10px;display:inline}
+.content .title h6{display:inline}
+.content .title a{float:right;font-size:14px;margin-top:10px;background:url(../images/arrow.png) no-repeat right center;padding-right:25px}
+.medical .title h3.border{border-bottom:4px solid #9ed26a}
+.medical .box{padding:16px}
+.medical article{position:relative}
+.medical article h6{position:absolute;top:24px;left:24px;color:#fff;font-size:16px;line-height:30px;padding:0 10px}
+.medical article p{text-align:center;margin-top:80px}
+.medical article h2{font-size:30px;text-align:center;font-weight:500}
+.medical article a.link{display:block;border:1px solid #a9b0bb;width:100px;height:30px;line-height:28px;text-align:center;margin:10px auto 0;background-color:rgba(255,255,255,0.45)}
+.medical .at1{width:575px;height:350px;box-sizing:border-box;float:left;margin-bottom:16px;margin-right:16px;background:url(../images/medical_bg_1.png)}
+.medical .at1 h6{font-size:0}
+.medical .at2{width:575px;height:350px;box-sizing:border-box;float:left;margin-bottom:16px;background:url(../images/medical_bg_2.png)}
+.medical .at3{width:280px;height:350px;box-sizing:border-box;float:left;margin-right:15px;background:url(../images/medical_bg_3.png)}
+.medical .at4{width:280px;height:350px;box-sizing:border-box;float:left;margin-right:16px;background:url(../images/medical_bg_4.png)}
+.medical .at5{width:280px;height:350px;box-sizing:border-box;float:left;margin-right:15px;background:url(../images/medical_bg_5.png)}
+.medical .at6{width:280px;height:350px;box-sizing:border-box;float:left;background:url(../images/medical_bg_6.png)}
+.hot .title h3.border{border-bottom:4px solid #e8553e}
+.hot .box{width:100%;height:524px;background-color:#f4f6f8;padding-top:45px;box-sizing:border-box}
+.hot .box .banner_item{margin:0 auto;max-width:1808px}
+.hot .box ul.item_banner li a{display:block;width:288px;height:400px;border:1px solid #e4e8eb;background-color:#fff;box-sizing:border-box}
+.hot .box ul.item_banner li a .img{width:286px;height:286px;margin-bottom:20px;background-size:cover;background-position:center center}
+.hot .box ul.item_banner li a .name{text-align:center;font-weight:500;margin-bottom:10px;padding:0 20px}
+.hot .box ul.item_banner li a .priceWrap{text-align:center}
+.hot .box ul.item_banner li a .priceWrap .small{font-size:14px;margin-right:5px}
+.hot .box ul.item_banner li a .priceWrap .price{font-size:24px;letter-spacing:0}
+.hot .box .bx-pager{text-align:center;margin-top:15px}
+.hot .box .bx-pager .bx-pager-item{display:inline;margin:0 7px}
+.hot .box .bx-pager .bx-pager-item a{display:inline-block;width:16px;height:16px;background-color:#cad0d7;border-radius:8px;font-size:0}
+.hot .box .bx-pager .bx-pager-item a.active{width:32px;background-color:#e8553e}
+.best .title h3.border{border-bottom:4px solid #4fc0e8}
+.best .box{width:1220px}
+.social .title h3.border{border-bottom:4px solid #9579da}
+.social > img{display:block;margin-bottom:20px}
+.social .tabmenu{margin:0}
+.social .box{margin-top:20px}
+.social .box .item_social{float:left;width:285px;border:1px solid #e4e8eb;margin-right:20px;margin-bottom:20px;box-sizing:border-box}
+.social .box .item_social:nth-child(4n){margin-right:0}
+.social .box .item_social a{display:block;padding-bottom:15px;box-sizing:border-box}
+.social .box .item_social .img{width:100%;height:180px;margin-bottom:20px;background-size:cover;background-position:center center}
+.social .box .item_social .name{font-weight:500;line-height:25px;height:60px;padding:0 15px}
+.social .box .item_social .no_discount{float:right;margin-right:15px;font-size:14px;color:#a9b0bb;text-decoration:line-through;letter-spacing:0}
+.social .box .item_social .right{clear:both;float:right;margin-right:15px}
+.social .box .item_social .right .small{font-size:14px;margin-right:5px}
+.social .box .item_social .right .price{font-size:24px;letter-spacing:0}
+.leisure .title h3.border{border-bottom:4px solid #fdcd56}
+.leisure > img{display:block;margin:0 auto 20px}
+.leisure .box{margin-top:20px}
+.leisure .box .item_leisure{float:left;width:285px;border:1px solid #e4e8eb;margin-right:20px;margin-bottom:20px;box-sizing:border-box}
+.leisure .box .item_leisure:nth-child(4n){margin-right:0}
+.leisure .box .item_leisure a{display:block;padding-bottom:15px;box-sizing:border-box;position:relative}
+.leisure .box .item_leisure .img{width:100%;height:180px;margin-bottom:20px;background-size:cover;background-position:center center}
+.leisure .box .item_leisure .text{padding:0 15px;height:75px}
+.leisure .box .item_leisure .name{font-weight:500;line-height:25px;margin-bottom:5px}
+.leisure .box .item_leisure .address{color:#a9b0bb;font-size:13px}
+.leisure .box .item_leisure .right{clear:both;float:right;margin-right:15px}
+.leisure .box .item_leisure .right .small{font-size:14px;margin-right:5px}
+.leisure .box .item_leisure .right .price{font-size:24px;letter-spacing:0}
+.leisure .banners{width:100%;height:368px;background:url(../images/leisure_banner_bg.png) center center;margin-top:10px}
+.leisure .banners .banner1_pager{width:285px;height:368px;float:left;margin-top:10px}
+.leisure .banners .banner1_pager li{margin-top:30px;padding-right:20px;box-sizing:border-box}
+.leisure .banners .banner1_pager li a{color:#fff;opacity:.5;display:block}
+.leisure .banners .banner1_pager li a.active{opacity:1;background:url(../images/active_arrow.png) no-repeat right center}
+.leisure .banners .banner1_pager li a span{display:block;width:240px;overflow:hidden;line-height:25px;height:25px}
+.leisure .banners .banner1{width:615px;height:368px;float:left;background-color:#fdcd56}
+.leisure .banners .banner1 .banner1_ul li a{display:block;width:615px;height:368px}
+.leisure .banners .banner2{float:left;height:368px}
+.leisure .banners .banner2 .banner2_ul{margin-bottom:20px}
+.leisure .banners .banner2 .banner2_ul li a{display:block;width:300px}
+.leisure .banners .banner2 .banner2_ul li a .img{width:224px;height:224px;border-radius:100%;margin:24px auto 15px;background-position:center center;background-size:cover}
+.leisure .banners .banner2 .banner2_ul li a p{text-align:center;padding:0 30px}
+.leisure .banners .banner2 .banner2_ul li a p.price{color:#e8553e;letter-spacing:0}
+.leisure .banners .banner2 .bx-pager{text-align:center}
+.leisure .banners .banner2 .bx-pager div{display:inline;margin-left:6px}
+.leisure .banners .banner2 .bx-pager div:first-child{margin:0}
+.leisure .banners .banner2 .bx-pager a{display:inline-block;width:16px;height:16px;background:url(../images/pager_icon.png);font-size:0}
+.leisure .banners .banner2 .bx-pager a.active{background:url(../images/pager_icon_active.png)}
+.enter .title h3.border{border-bottom:4px solid #ef5f84}
+.enter .box{padding:16px;box-sizing:border-box}
+.enter .box .category{margin-bottom:10px}
+.enter .box .category img{float:left;margin-right:10px}
+.enter .box .category p{font-weight:500;letter-spacing:0;float:left;line-height:16px}
+.enter .box .category p span{font-size:13px;color:#636c77;margin-left:5px}
+.enter .box .movie{width:1166px;float:right;box-sizing:border-box;margin-bottom:16px;padding:16px}
+.enter .box .item_box{width:216px;float:left;margin-right:12px;box-sizing:border-box}
+.enter .box .no_margin{margin:0}
+.enter .box .item_box .img{height:310px;width:100%;margin-bottom:16px;background-position:center center;background-size:cover}
+.enter .box .item_box p{line-height:24px;font-weight:500;padding:0 16px;margin-bottom:15px}
+.enter .box .item_box p img{margin-right:10px}
+.enter .box .item_box a{float:left;width:182px;line-height:34px;height:36px;box-sizing:border-box;border:1px solid #ef5f84;text-align:center;font-weight:500;margin-bottom:16px;margin-left:16px;transition:.2s;color:#ef5f84;background:#fff}
+.enter .box .item_box a:hover{color:#fff;background:#ef5f84}
+.enter .box .performance{width:1166px;float:right;box-sizing:border-box;padding:16px;margin-bottom:16px}
+.enter .box .book{clear:both;box-sizing:border-box;width:1166px;padding:16px}
+.enter .box .book .category{margin-bottom:20px}
+.enter .box .book_banner{position:relative;width:920px;margin:0 auto}
+.enter .box .book_banner li a .img{width:132px;height:178px;background-position:center center;background-size:cover;box-sizing:border-box;margin-bottom:10px}
+.enter .box .book_banner li a h6{width:132px}
+.enter .box .book_banner li a .author{color:#636c77}
+.enter .box .book_banner .bx-prev{position:absolute;top:35%;left:-90px;width:40px;height:40px;font-size:0;background:url(../images/prev_icon.png) no-repeat center center}
+.enter .box .book_banner .bx-next{position:absolute;top:35%;right:-90px;width:40px;height:40px;font-size:0;background:url(../images/next_icon.png) no-repeat center center}
+.sports .title h3.border{border-bottom:4px solid #4a88da}
+.sports .box{background-color:#f4f6f8;width:100%;height:120px}
+.sports .box ul li{float:left;width:150px;line-height:120px}
+.event .title{margin-bottom:70px}
+.event .title h3.border{border-bottom:4px solid #e8553e}
+.event .event_banner{position:relative;margin:0 auto 130px;width:930px}
+.event ul li a{display:block;width:450px}
+.event .event_banner .bx-prev{position:absolute;top:50%;left:-80px;width:100%;margin-top:-20px;width:40px;height:40px;font-size:0;background:url(../images/prev_icon.png) no-repeat center center}
+.event .event_banner .bx-next{position:absolute;top:50%;right:-80px;width:100%;margin-top:-20px;width:40px;height:40px;font-size:0;background:url(../images/next_icon.png) no-repeat center center}
+.bottom_area .box{width:384px;height:260px;border:1px solid #e4e8eb;box-sizing:border-box;float:left;padding:30px 40px 0}
+.bottom_area .announce{margin:0 24px}
+.bottom_area .box > p{border-bottom:1px solid #cad0d7;font-weight:500;padding-bottom:10px;margin-bottom:20px;position:relative}
+.bottom_area .box > p a{position:absolute;right:0;bottom:0}
+.bottom_area .cs > p{margin-bottom:45px}
+.bottom_area .box .text{text-align:center;padding-left:110px;background:url(../images/cs_icon.png) no-repeat left center}
+.bottom_area .box .text h3{font-weight:500;letter-spacing:0;margin-bottom:7px}
+.bottom_area .box ul li{margin-bottom:5px}
+.bottom_area .box ul li a{font-size:15px;background:url(../images/li_bul.png) no-repeat left center;padding-left:8px}
+@media screen and (max-width: 1800px) {
+  .hot .box .banner_item{width:1504px}
+}
+@media screen and (max-width: 1550px) {
+  .hot .box .banner_item{width:1200px}
+}

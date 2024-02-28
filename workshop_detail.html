@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/travel_detail.css">
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/fix.js"></script>
+	<script type="text/javascript" src="js/scroll3.js"></script>
+	<script type="text/javascript" src="js/detail_popup.js"></script>
+	<script type="text/javascript" src="js/room.js"></script>	
+	<script type="text/javascript" src="js/workshop.js"></script>	
+</head>
+
+<body>
+	<header class="hd_red">
+		<h1><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+		<div class="menu">
+			<a href=""><img src="images/menu_icon.png" alt="menu_icon">전체메뉴</a>
+			<ul class="allMenu">
+				<li>
+					<a href="medical.html">의료</a>
+					<ul>
+						<li><a href="medical_health.html">건강검진</a></li>
+						<li><a href="medical_tooth.html">교정치아</a></li>
+						<li><a href="medical_scaling.html">스케일링</a></li>
+						<li><a href="medical_eye.html">시력검진</a></li>
+						<li><a href="medical_presbyopia.html">노안검진</a></li>
+						<li><a href="medical_macrogen.html">유전체검사</a></li>
+						
+					</ul>
+				</li>
+
+				<li>
+					<a href="book.html">도서</a>
+					<ul>
+						<li><a href="book_popular.html">인기</a></li>
+						<li><a href="book_economy.html">경제/경영</a></li>
+						<li><a href="book_development.html">자기개발</a></li>
+						<li><a href="book_hobby.html">취미/건강</a></li>
+						<li><a href="book_humanities.html">인문</a></li>
+						<li><a href="book_literature.html">문학</a></li>
+						<li><a href="book_kids.html">아동/청소년</a></li>
+						<li><a href="book_children.html">자녀교육</a></li>
+						<li><a href="book_etc.html">기타</a></li>
+						<li><a href="book_leader.html">For Leaders</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="travel.html">여행</a>
+					<ul>
+						
+						<li><a href="travel_workshop.html">워크샵</a></li>
+						<li><a href="travel_hotel.html">호텔</a></li>
+						<li><a href="travel_pension.html">펜션</a></li>
+						<li><a href="travel_custom.html">맞춤여행</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="ticket.html">티켓</a>
+					<ul>
+						<li><a href="ticket.html#movie">영화</a></li>
+						<li><a href="ticket.html#best">공연</a></li>
+						<li><a href="ticket.html#baseball">야구</a></li>
+						<li><a href="ticket.html#soccer">축구</a></li>
+						<li><a href="ticket.html#basketball">농구</a></li>
+						<li><a href="ticket.html#volleyball">배구</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="consultation.html">자문</a>
+					<ul>
+						<li><a href="consultation1.html">법률자문</a></li>
+						<li><a href="consultation2.html">경영자문</a></li>
+						<li><a href="consultation3.html">변리자문</a></li>
+						<li><a href="consultation4.html">노무자문</a></li>
+						<li><a href="consultation5.html">파산회생</a></li>
+						<li><a href="consultation6.html">손해사정</a></li>
+						<li><a href="consultation7.html">세무자문</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="life.html">생활</a>
+					<ul>
+						<li><a href="life_detail1.html">사진타운</a></li>
+						<li><a href="life_detail2.html">가족사진</a></li>
+						<li><a href="life_detail3.html">홈케어</a></li>
+						<li><a href="http://www.ifamily.co.kr/iwedding">웨딩상담</a></li>
+						<li><a href="life_detail5.html">하나금융</a></li>
+						<li><a href="life_detail6.html">정리수납</a></li>
+						<li><a href="life_detail7.html">헤어서비스</a></li>
+						<li><a href="life_detail8.html">마음건강</a></li>
+						<li><a href="life_detail9.html">안전/보안</a></li>
+						
+					</ul>
+				</li>
+
+				<li>
+					<a href="econ.html">e콘</a>
+					<ul>
+						<li><a href="econ_coffee.html">커피</a></li>
+						<li><a href="econ_fastfood.html">패스트푸드</a></li>
+						<li><a href="econ_convenience.html">편의점/간식</a></li>
+						<li><a href="econ_bread.html">제과/제빵</a></li>
+						<li><a href="econ_restaurant.html">외식/레스토랑</a></li>
+						<li><a href="econ_etc.html">생활/기타</a></li>
+						<li><a href="econ_movie.html">영화</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="tour.html">관광지</a>
+					<ul>
+						<li><a href="tour_md.html">MD추천</a></li>
+						<li><a href="tour_kids.html">키즈</a></li>
+						<li><a href="tour_water.html">워터파크</a></li>
+						<li><a href="tour_theme.html">테마파크</a></li>
+						<li><a href="tour_restaurant.html">레스토랑</a></li>
+						<li><a href="tour_spa.html">스파/온천</a></li>
+						<li><a href="tour_ski.html">스키/눈썰매</a></li>
+						<li><a href="tour_aqua.html">아쿠아리움</a></li>
+						<li><a href="tour_leports.html">레포츠</a></li>
+					</ul>
+				</li>
+
+				<li style="clear: both">
+					<a href="education.html">교육</a>
+					<ul>
+						<li><a href="education_detail1.html">근로자카드</a></li>
+						<li><a href="education_detail2.html">유아교육</a></li>
+						<li><a href="book.html">우수도서</a></li>
+						<li><a href="education_detail4.html">기업교육</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="car.html">자동차</a>
+					<ul>
+						<li><a href="http://carbohummall-direct.com/">자동차보험</a></li>
+						<li><a href="car_detail2.html">렌터카견적</a></li>
+						<li><a href="car_carpos.html">엔진오일</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="couponking.html">쿠폰킹</a>
+					<ul>
+						<li><a href="couponking_eat.html">맛집/카페</a></li>
+						<li><a href="couponking_beauty.html">뷰티/케어</a></li>
+						<li><a href="couponking_health.html">건강관리</a></li>
+						<li><a href="couponking_car.html">차량정비</a></li>
+						<li><a href="couponking_life.html">생활편의</a></li>
+						<li><a href="couponking_education.html">교육/학원</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="shopping.html">쇼핑</a>
+					<ul>
+						<li><a href="shopping_samsung.html">삼성/특가전</a></li>
+						<li><a href="shopping_digital.html">가전/디지털</a></li>
+						<li><a href="shopping_kitchen.html">주방/생활</a></li>
+						<li><a href="shopping_furniture.html">유아동/가구</a></li>
+						<li><a href="shopping_health.html">건강/식품</a></li>
+						<li><a href="shopping_fashion.html">패션/잡화</a></li>
+						<li><a href="shopping_sports.html">스포츠/레져</a></li>
+						<li><a href="shopping_gift.html">사은품</a></li>
+						<li><a href="shopping_office.html">오피스</a></li>
+						<li><a href="shopping_clothing.html">의류</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="welfaremall.html">복지몰</a>
+				</li>
+
+				<li>
+					<a href="charge.html">충전소</a>
+				</li>
+
+				<li>
+					<a href="event.html">이벤트</a>
+					<ul>
+						<li><a href="event.html">진행중 이벤트</a></li>
+						<li><a href="event_end.html">종료된 이벤트</a></li>
+						<li><a href="event_win.html">당첨자 발표</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="search">
+			<form action="">
+				<input type="text" placeholder="어떤 혜택이 필요하세요?">
+				<input type="submit">
+			</form>
+		</div>
+
+		<ul class="gnb">
+			<li><a href="login.html"><img src="images/login_icon.png" alt="login_icon">로그인</a></li>
+			<li><a href="cart.html"><img src="images/cart_icon.png" alt="cart_icon">장바구니</a></li>
+			<li><a href="mypage.html"><img src="images/mypage_icon.png" alt="mypage_icon">마이페이지</a></li>
+		</ul>
+	</header>
+
+	<div class="detail_title center cf">
+		<h3>레저스테이션</h3>
+		<div class="lnb">
+			<a href="index.html">홈</a>
+			<span>></span>
+			<a href="travel.html">여행</a>
+			<span>></span>
+			<a href="travel_workshop.html" class="red">워크샵</a>
+		</div>
+		<div class="line bg_red"></div>
+	</div>
+	
+	<form action="">
+		<div class="detail_top center cf">
+			<div class="detail_banner_half">
+				<ul class="tour_banner">
+					<li><a href="" style="background-image: url();"></a></li>
+					<li><a href="" style="background-image: url();"></a></li>
+				</ul>
+			</div>
+			<script type="text/javascript">
+			$(function(){
+				$('.tour_banner').bxSlider({
+					speed: 700,
+					pause: 4000,
+					auto: true,
+					autoHover: true,
+					pager: true,
+					controls: false,
+				})
+			});
+			</script>
+
+			<div class="detail_info">
+				<h5 class="name">레저스테이션</h5>
+				<h6 id="color" class="color red">주소</h6>
+				<h6>경기도 가평군 설악면 사룡리 26-1</h6>
+				<h6 class="color red">1인당 가격</h6>
+				<h3 class="price">65,000원<span style="font-size: 18px; font-weight: normal; margin-left: 3px;">~</span></h3>
+				<input type="button" value="예약문의" class="red border_red">			
+			</div>
+		</div>
+
+		<div class="subtab_link workshoptab center cf">
+			<div><a class="content1" href="#content1">시설소개 및 이용안내</a></div>
+			<div><a class="content2" href="#content2">위치정보</a></div>
+			<div><a class="content3" href="#content3">이용후기</a></div>
+			<div><a class="content4" href="#content4">부대시설&식사</a></div>
+			<div><a class="content5" href="#content5">주의사항</a></div>
+			<div><a class="content6" href="#content6" style="font-weight: 500;">객실정보</a></div>			
+		</div>
+		
+		<div class="detail_content center">
+			<div class="contents" id="content1">
+				<h3 class="detail_content_title">시설소개 및 이용안내</h3>
+				<table class="info">
+					<tr>
+						<td class="bg">시설 소개</td>
+						<td colspan="3" class="intro">편안하고 안락한 캠핑! 레저스테이션 리조트에서 국내 최고의 카라반에서 소중한 추억을 만들어 가세요. 복잡한 도시에서 벗어나 천혜의 자연을 느낄 수 있는 곳에서 당신이 꿈꾸는 캠핑을 만나실 수 있습니다.</td>
+					</tr>
+					<tr>
+						<td class="bg">입실 시간</td>
+						<td>오전 11시 이후</td>
+						<td class="bg">퇴실 시간</td>
+						<td>오후 3시 이전</td>
+					</tr>
+
+					<tr>
+						<td class="bg">이용시 주의사항</td>
+						<td colspan="3">
+							<h5>[취소수수료 규정]</h5>
+							<p>사용예정일 8일 전까지 취소 : 전액 환불</p>
+							<p>사용예정일 7일 전까지 취소 : 10% 공제 후 환불</p>
+							<p> 사용예정일 6일~5일 전까지 취소 : 20% 공제 후 환불</p>
+							<p> 사용예정일 4일~3일 전까지 취소 : 30% 공제 후 환불</p>
+							<p>사용예정일 2일 전까지 취소 : 50% 공제 후 환불</p>
+							<p>사용예정일 전일 및 당일 취소 : 환불불가</p>
+							<p>예약 취소는 사용예정일 2일전 까지 가능</p>
+							<p>영업일(주말, 공휴일 제외) 17시 이후에 취소할 시, 익영업일 기준으로 취소수수료가 부과됩니다.</p>
+							<p>예약 당일에도 입실일 기준에 따라 취소수수료가 부과되오니 신중하게 결정 하여 예약하여 주시기 바랍니다.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="contents" id="content2">
+				<h3 class="detail_content_title">위치정보</h3>
+
+				<p class="position cf">
+					<span class="name">레저스테이션</span>
+					<span class="address">경기도 가평군 설악면 사룡리 26-1</span>
+				</p>
+
+			</div>
+
+			<div class="contents" id="content3">
+				<h3 class="detail_content_title">이용후기 <a href="" class="photo_review_popup">후기작성</a></h3>
+
+				<div class="review_write_photo">
+					<div class="review_write">
+						<a href=""><img src="images/write_close.png" alt="write_close"></a>
+						<h4>사용후기 작성</h4>
+						<div class="select1">
+							<label for="star_select1">만족도</label>
+							<select id="star_select1">
+								<option value="">★★★★★</option>
+								<option value="">★★★★☆</option>
+								<option value="">★★★☆☆</option>
+								<option value="">★★☆☆☆</option>
+								<option value="">★☆☆☆☆</option>
+							</select>
+						</div>
+						<label>이미지 추가</label>
+						<div class="file cf">
+							<input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+							<label for="file-7"><span>이미지를 등록해주세요</span> <strong></strong></label>
+						</div>
+						<script src="js/file.js"></script>
+						<label for="review_text">후기 입력</label>
+						<textarea id="review_text" placeholder="후기를 입력해주세요. 남겨주신 소중한 후기는 좋은 상품을 선택할 수 있는 유용한 기준이 됩니다."></textarea>
+						<input type="submit" value="등록하기" class="bg_red">
+					</div>
+				</div>
+
+				<table class="review">
+					<tr class="photo_review">
+						<td class="star">만족도<img src="images/greenstar5.png" alt="greenstar"></td>
+
+						<td class="text">
+				<!-- 이미지 첨부시 (10개까지 가능) -->
+							<!-- <div class="img border_gray" style="background-image: url();"></div> -->
+
+							<div class="img border_gray" style="background-image: url();"></div>
+							<p>너무 좋은 가격에 너무 친절한 서비스, 만족스럽게 잘 받았습니다! :)</p>
+						</td>
+						
+						<td class="info">
+							<p class="writer">작성자 : <span>홍길동</span></p>
+							<p class="date">등록일 : <span>2017.08.24</span></p>
+						</td>
+					</tr>
+
+					<tr class="photo_review">
+						<td class="star">만족도<img src="images/greenstar5.png" alt="greenstar"></td>
+
+						<td class="text">
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<div class="img border_gray" style="background-image: url();"></div>
+							<p>너무 좋은 가격에 너무 친절한 서비스, 만족스럽게 잘 받았습니다! :)</p>
+						</td>
+						
+						<td class="info">
+							<p class="writer">작성자 : <span>홍길동</span></p>
+							<p class="date">등록일 : <span>2017.08.24</span></p>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="contents cf" id="content4">
+				<h3 class="detail_content_title">부대시설&식사</h3>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test1.png);"></div>
+						<p class="name ellipsis">수영장</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>수영장</h4>
+						<div class="img" style="background-image: url(images/workshop_test1.png);"></div>
+						<p>글램핑 캠핑장 고객을 위한  전용 수영장과 빌리지 고객을 위한 수영장이 있습니다.<br>
+						수영장에는 썬배드와 파라솔이 준비되어 있습니다.<br><br><br>
+						<strong>준비물</strong> : 수영복을 꼭 입고 입수해 주세요.<br><br>
+						<strong>운영시간 : 오전 9시부터 ~ 오후 9시까지</strong></p>
+					</div>
+				</div>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test2.png);"></div>
+						<p class="name ellipsis">세미나실 & 실내 BBQ장</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>이름</h4>
+						<div class="img" style="background-image: url();"></div>
+						<p>설명</p>
+					</div>
+				</div>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test3.png);"></div>
+						<p class="name ellipsis">휴토피아 카페</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>이름</h4>
+						<div class="img" style="background-image: url();"></div>
+						<p>설명</p>
+					</div>
+				</div>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test4.png);"></div>
+						<p class="name ellipsis">어린이 놀이터</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>이름</h4>
+						<div class="img" style="background-image: url();"></div>
+						<p>설명</p>
+					</div>
+				</div>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test5.png);"></div>
+						<p class="name ellipsis">공용 화장실,샤워실</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>이름</h4>
+						<div class="img" style="background-image: url();"></div>
+						<p>설명</p>
+					</div>
+				</div>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test6.png);"></div>
+						<p class="name ellipsis">족구장</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>이름</h4>
+						<div class="img" style="background-image: url();"></div>
+						<p>설명</p>
+					</div>
+				</div>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test7.png);"></div>
+						<p class="name ellipsis">석식 : BBQ 무한 리필</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>이름</h4>
+						<div class="img" style="background-image: url();"></div>
+						<p>설명</p>
+					</div>
+				</div>
+
+				<article>
+					<a href="" class="cf">
+						<div class="img" style="background-image: url(images/workshop_test8.png);"></div>
+						<p class="name ellipsis">조식 : 시원한 북어국과 깔끔한 가정식 8가지 밑반찬</p>
+						<h6 class="more">+ 더보기</h6>
+					</a>
+				</article>
+				<div class="article_more">
+					<div class="more_wrap">
+						<a href="" class="close"><img src="images/write_close.png" alt="write_close"></a>
+						<h4>이름</h4>
+						<div class="img" style="background-image: url();"></div>
+						<p>설명</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="contents" id="content5">
+				<h3 class="detail_content_title">주의사항</h3>
+
+				<p class="red caution">전화문의를 통해 직접 펜션을 예약하신 경우 개별 펜션의 취소수수료 규정 및 이용사항이 우선하며,
+				<br>본 주의/취소정보는 워크샵가자의 예약시스템을 통해 예약한 건에 대해서만 적용됩니다.</p>
+				
+				<div class="accordions">
+					<div class="accordion">
+						<h4>이용 및 예약안내<img src="images/down_icon.png" alt="down_icon.png"></h4>
+						<table class="opens info">
+							<tr>
+								<td class="title">이용안내</td>
+								<td>
+									<p>최대 인원이 2명인 커플 객실은 영, 유아 동반 입실이 되지 않습니다.</p>
+									<p><span class="red">이용요금은 기준인원에 대한 요금</span>이며, 예약 시 신청한 인원만 입실 가능합니다.</p>
+									<p><strong>픽업 가능한 펜션은 이용 전 반드시 펜션 업주와 통화 후 이용</strong> 바랍니다.</p>
+									<p>보호자 동반 없는 미성년자는 펜션을 이용할 수 없습니다.</p>
+									<p>사전 동의 없이 애완동물의 입실은 되지 않습니다.</p>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">예약안내</td>
+								<td>
+									<p><span class="red">결제방식이 <em>무통장</em>인 경우 입금기한 내 입금해 주셔야 합니다.</span></p>
+									<p><span class="red">결제방식이 <em>무통장</em>일 경우 예약대기 상태가 되며, <strong>입금대기는 아직 예약이 확정된 것이 아닙니다.</strong></span></p>
+									<p><span class="red">결제방식이 <em>무통장</em>이며 예약대기 상태인 경우 <strong>입금을 먼저 하신 분께 우선권</strong>이 있습니다.</span></p>
+									<p>예약이 완료되면 펜션 연락처가 문자와 메일로 발송됩니다.</p>
+									<p>정상적으로 예약이 완료되면 문자와 메일로 예약완료를 알려 드립니다.</p>
+									<p>기타 문의사항은 예약한 펜션이나 워크샵가자 고객센터로 연락 주시기 바랍니다.</p>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">공통사항</td>
+								<td>
+									<p><strong>워크샵가자에서 운영하는 객실 예약현황은 실시간 예약 특성상 100% 일치하지 않을 수 있습니다.</strong></p>
+									<p>경우에 따라 1객실에 중복예약이 발생할 수 있으며, 이 경우 먼저 결제된 예약 건에 우선권이 있습니다.</p>
+									<p><span class="red">워크샵가자에 등록된 펜션은 펜션 업주가 직접 운영하는 펜션입니다.</span></p>
+									<p><span class="red">당사는 펜션예약 대행사로서 예약상의 문제 이외의 펜션 상품 자체의 하자로 인한 문제는 펜션에 귀속됨을 알려드립니다.</span></p>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="accordion">
+						<h4>실시간예약 취소 수수료 안내<img src="images/down_icon.png" alt="down_icon.png"></h4>
+						<table class="opens info">
+							<tr>
+								<td class="title title2">객실 이용 당일 예약 취소</td>
+								<td class="cancel"><span class="red">전액 환불 불가</span></td>
+							</tr>
+							<tr>
+								<td class="title title2">객실 이용 1일전 취소</td>
+								<td class="cancel">전체금액의 70% 부과</td>
+							</tr>
+							<tr>
+								<td class="title title2">객실 이용 2일전 취소</td>
+								<td class="cancel">전체금액의 50% 부과</td>
+							</tr>
+							<tr>
+								<td class="title title2">객실 이용 3일전 취소</td>
+								<td class="cancel">전체금액의 30% 부과</td>
+							</tr>
+							<tr>
+								<td class="title title2">객실 이용 4일전 취소</td>
+								<td class="cancel">전체금액의 20% 부과</td>
+							</tr>
+							<tr>
+								<td class="title title2">예약 8일후부터 객실 이용 5일전 취소</td>
+								<td class="cancel">전체금액의 10% 부과</td>
+							</tr>
+							<tr>
+								<td class="title title2">예약 후 7일 이내이며, 객실 이용 6일전 취소</td>
+								<td class="cancel"><span class="red">전액 환불</span></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<p>취소접수는 PC 웹과 모바일 웹/앱의 [예약조회] 메뉴에서 바로 가능합니다.</p>
+									<p>환불처리는 예약취소 접수 후 <span class="red">워크샵가자 고객센터 운영일(일요일, 공휴일 휴무)에 처리</span>됩니다.</p>
+									<p>당일 노쇼(No Show : 사전 연락 없이 예약된 숙소를 이용하지 않는 경우)의 경우 당일 취소분과 동일하게 적용해 숙박요금이 100% 정상 청구됩니다.</p>
+									<p>펜션의 취소수수료는 <span class="red">이용 일자별로 적용되어 합산</span>됩니다.<br>(단, 옵션 상품의 경우 이용 첫째 날 기준으로 적용됩니다.)</p>
+									<p>취소수수료는 결제금액이 아닌 예약금액(객실금액+옵션금액) 기준으로 책정됩니다.</p>
+									<p>최대 인원 초과 시 입실이 불가할 수 있으며, 해당 사유로 환불을 받으실 수 없습니다.(유아, 어린이 포함)</p>
+									<p>당일 예약 후 취소 시에도 이용일 기준으로 취소수수료가 적용됩니다.</p>
+									<p>이용일 당일 예약 후 당일 취소한 경우 이용 당일 취소이므로 환불이 불가합니다.</p>
+									<p>단체인 경우 미리 식사주문을 하셨다면, 식대에 대해서도 취소수수료가 적용됩니다.</p>
+									<p>마일리지를 사용하여 결제 시 사용한 마일리지는 재 적립되며, 취소수수료는 결제금액에서 차감 후 환불됩니다.</p>
+									<p>숙박 당일 기상청이 숙박 지역 내 폭풍해일, 지진해일, 태풍 경보를 발령하여 숙박지역 이동이 불가하거나 이동수단(항공기, 선박 등)의 이용이 불가한 경우 전액 환불됩니다. <br>그 외의 경우는 일반 취소 규정에 따릅니다.</p>
+									<h3>※ 상위 안내는 워크샵가자를 통한 예약 건에 대해서만 적용되는 취소 수수료 정책이며, <br><span class="red">전화 등을 통해 고객님이 직접 펜션에 예약하신 경우는 개별 펜션의 취소 수수료 정책이 우선</span>합니다.</h3>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="accordion">
+						<h4>고객센터 이용안내<img src="images/down_icon.png" alt="down_icon.png"></h4>
+						<table class="opens info">
+							<tr>
+								<td class="title">☎ 070-4366-1143</td>
+								<td>
+									<p>운영시간 : 월~토 09:00~18:00 점심(12:00~13:00) (일요일, 공유일 휴무)</p>
+									<p>취소 마감시간 : 월~토 17:00</p>
+									<p>워크샵가자는 숙박 상품의 판매 대행처로 소득세법과 부가가치세법에 따라 세금계산서 발행이 어렵습니다.</p>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">취소 후 환불안내</td>
+								<td>
+									<p>무통장입금 예약취소 시 수수료 적용 여부를 판단해서 취소수수료를 제외하고 송금해 드립니다.</p>
+									<p>계좌이체 후 예약 취소 시는 계좌 부분취소가 되며, 은행업무 처리시간은 2~3일정도 소요됩니다.</p>
+									<p>신용카드 예약 취소 시는 카드금액이 부분적으로 변경되어 취소수수료 금액 만큼만 결제됩니다.</p>
+									<p><span class="red">카드 부분취소 처리기간은 카드사마다 다르며, 4~6일정도 소요됩니다.</span></p>
+									<p>카드 결제금액이 이미 청구가 된 경우는 다음달 요금에서 마이너스(-) 청구됩니다.</p>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">예약변경안내</td>
+								<td>
+									<p><span class="red"><strong>예약변경 안내예약변경은 반드시 고객센터 전화로만 변경을 요청해 주셔야 합니다.</strong></span> (예약 변경 및 취소는 메일 및 게시판으로 접수 받지 않습니다.)</p>
+									<p>예약변경은 이용일 1주일 전 펜션과 협의 후 조정 가능합니다.</p>
+									<p>예약변경은 펜션 사정에 의해 변경되지 않을 수 있습니다.</p>
+									<p>이용인원 변경은 최대인원 내에서만 변경 가능합니다.</p>
+									<p>예약인원보다 이용 시 인원이 줄어들 경우 환불이 가능합니다.</p>
+									<p>이용일 6일전부터 예약 변경은 원칙적으로 안됩니다.</p>
+									<p>예약변경 시 경우에 따라 변경수수료가 발생할 수 있습니다.</p>
+									<p>펜션 이용 시 입실 및 퇴실시간의 변경은 원칙적으로 되지 않습니다.</p>
+									<p>펜션 업주의 양해가 있을 경우 이용 당일부터 이용 3일전 변경은 가능합니다.</p>
+									<p>단, 변경 후 취소 시 변경 전 취소수수료와 변경 후 취소수수료를 비교하여 취소수수료가 높은 쪽으로 적용됩니다.</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="contents cf room_content" id="content6">
+				<h3 class="detail_content_title">객실정보</h3>
+				<div class="textTab cf">
+					<button class="roomcss red">패밀리16</button>
+					<button class="roomcss">디럭스31</button>
+					<button class="roomcss">디럭스32</button>
+					<button class="roomcss">디럭스35</button>
+					<button class="roomcss">디럭스테라스37</button>
+					<button class="roomcss">스위트48</button>
+					<button class="roomcss">오션스위트70</button>
+					<button class="roomcss">펜트하우스스위트116</button>
+				</div>
+
+				<div class="tabContents cf">			
+					<div class="tabContent">
+						<h4 class="room_title">패밀리16</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test1.png);"></li>
+								<li style="background-image: url(images/room_test1.png);"></li>
+								<li style="background-image: url(images/room_test1.png);"></li>
+								<li style="background-image: url(images/room_test1.png);"></li>
+								<li style="background-image: url(images/room_test1.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test1.png);"></a></li>
+										<li><a style="background-image: url(images/room_test1.png);"></a></li>
+										<li><a style="background-image: url(images/room_test1.png);"></a></li>
+										<li><a style="background-image: url(images/room_test1.png);"></a></li>
+										<li><a style="background-image: url(images/room_test1.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+
+					<div class="tabContent">
+						<h4 class="room_title">디럭스31</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test2.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test2.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+
+					<div class="tabContent">
+						<h4 class="room_title">디럭스32</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test3.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test3.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+
+					<div class="tabContent">
+						<h4 class="room_title">디럭스35</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test4.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test4.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+
+					<div class="tabContent">
+						<h4 class="room_title">디럭스테라스37</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test5.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test5.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+
+					<div class="tabContent">
+						<h4 class="room_title">스위트48</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test1.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test1.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+
+					<div class="tabContent">
+						<h4 class="room_title">오션스위트70</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test2.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test2.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+
+					<div class="tabContent">
+						<h4 class="room_title">펜트하우스스위트116</h4>
+						<h4 class="room_price red">1인당 <strong><span>75,000</span>원</strong></h4>
+
+						<div class="room_img cf">
+							<ul class="big_img">
+								<li style="background-image: url(images/room_test3.png);"></li>
+							</ul>
+
+							<div class="thumbWrap">
+								<button class="up_btn">up</button>
+
+								<div class="thumbs">
+									<ul class="thumb">
+										<li><a style="background-image: url(images/room_test3.png);"></a></li>
+									</ul>	
+								</div>	
+
+								<button class="down_btn">down</button>
+							</div>					
+						</div>
+
+						<table class="info">
+							<tr>
+								<td class="bg">인원정보</td>
+								<td>최소 2명/최대 3명</td>
+								<td class="bg">객실구조/크기</td>
+								<td>더블1</td>
+							</tr>
+
+							<tr>
+								<td class="bg">구비시설</td>
+								<td colspan="3" class="pd">
+									초고속 인터넷 서비스(유선), KT WIBRO 무선인터넷(로비만), 개별작동이 가능한 냉,난방 시스템(냉난방 동시작동 불가), 슬리퍼, 전자렌지, 인덕션렌지 등 취사 가능 주방기기
+								</td>
+							</tr>
+
+							<tr>
+								<td class="bg">객실설명</td>
+								<td colspan="3" class="pd">
+									실속있고 아늑한 휴식을 꿈꾸는 고객님들에게 서해의 낙조와 파도소리가 들리는 테라스는 재충전의 기회를 마련해 줄 것 입니다.
+								</td>
+							</tr>
+						</table>
+
+						<input type="button" value="예약문의" class="red border_red">
+					</div>
+				</div>			
+			</div>			
+		</div>
+	</form>
+		
+	<footer>
+		<div class="ft_top">
+			<div class="center">
+				<ul class="cf">
+					<li><a href="">이용약관</a></li>
+					<li><a href="" class="eblue">개인정보 처리방침</a></li>
+					<li><a href="">이메일 무단 수집 거부</a></li>
+					<li><a href="">고객센터</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="ft_bottom center">
+			<p><strong>(주) 한국기업복지</strong></p>
+			<p>대표 이현호&nbsp;&nbsp;&nbsp;&nbsp;서울시 성동구 성수일로 77 서울숲 IT밸리 505~507호&nbsp;&nbsp;&nbsp;&nbsp;사업자 등록번호 : 749-86-0063&nbsp;&nbsp;&nbsp;&nbsp;<a href="">사업자 정보 확인하기</a>&nbsp;&nbsp;&nbsp;&nbsp;통신판매업 신고번호 : 서울성동 01210호</p>
+			<p>고객센터 <strong>02-562-7747</strong>(평일 09-18시)&nbsp;&nbsp;&nbsp;&nbsp;팩스 02-562-2242&nbsp;&nbsp;&nbsp;&nbsp;이메일 okwel@naver.com</p>
+			<p class="copyright">Copyright © 2017 ebokji All Right Reserved.</p>
+		</div>
+	</footer>
+</body>
+</html>

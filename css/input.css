@@ -1,0 +1,11 @@
+.formClass input[type="text"],.formClass input[type="tel"],.formClass input[type="search"],.formClass input[type="date"],.formClass input[type="mail"]{width:400px;height:44px;border:1px solid #e4e8eb!important;box-sizing:border-box;padding-left:20px;margin-bottom:10px;margin-top:10px}
+.formClass .address_bottom_type{display:block;margin-left:140px;margin-top:-1px}
+.formClass .check_box{float:left;margin-right:80px;width:180px;height:40px}
+.formClass .check_box:nth-child(7),.formClass .check_box:nth-child(10),.formClass .check_box:nth-child(12){margin-left:140px}
+.formClass .check_wrap{width:20px;height:20px;position:relative;display:inline-block;margin-top:20px}
+.formClass .check_box .check_text{position:absolute;margin-left:20px;margin-top:16px;font-size:18px;font-weight:400;color:#83878d}
+.formClass input[type="checkbox"]{width:20px;height:20px;position:absolute;top:0;left:0;margin:0;opacity:0;z-index:2}
+.formClass .checkBgImg{width:20px;height:20px;background-image:url(../images/checkbox_none.png);position:absolute;top:0;left:0;cursor:pointer}
+.formClass input[type="checkbox"]:checked + .checkBgImg{background:url(../images/checkbox_on.png)}
+.formClass .group_line{width:1000px;border:1px solid #e4e8eb;border-width:1px 0 0;margin-top:40px;margin-bottom:30px}
+.formClass .alert{font-weight:12px;font-weight:400;color:red;margin-bottom:20px}

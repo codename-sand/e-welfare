@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/fix.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="js/detail_popup.js"></script>
+</head>
+
+<body>
+	<header class="hd_red">
+		<h1><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+		<div class="menu">
+			<a href=""><img src="images/menu_icon.png" alt="menu_icon">전체메뉴</a>
+			<ul class="allMenu">
+				<li>
+					<a href="medical.html">의료</a>
+					<ul>
+						<li><a href="medical_health.html">건강검진</a></li>
+						<li><a href="medical_tooth.html">교정치아</a></li>
+						<li><a href="medical_scaling.html">스케일링</a></li>
+						<li><a href="medical_eye.html">시력검진</a></li>
+						<li><a href="medical_presbyopia.html">노안검진</a></li>
+						<li><a href="medical_macrogen.html">유전체검사</a></li>
+						
+					</ul>
+				</li>
+
+				<li>
+					<a href="book.html">도서</a>
+					<ul>
+						<li><a href="book_popular.html">인기</a></li>
+						<li><a href="book_economy.html">경제/경영</a></li>
+						<li><a href="book_development.html">자기개발</a></li>
+						<li><a href="book_hobby.html">취미/건강</a></li>
+						<li><a href="book_humanities.html">인문</a></li>
+						<li><a href="book_literature.html">문학</a></li>
+						<li><a href="book_kids.html">아동/청소년</a></li>
+						<li><a href="book_children.html">자녀교육</a></li>
+						<li><a href="book_etc.html">기타</a></li>
+						<li><a href="book_leader.html">For Leaders</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="travel.html">여행</a>
+					<ul>
+						
+						<li><a href="travel_workshop.html">워크샵</a></li>
+						<li><a href="travel_hotel.html">호텔</a></li>
+						<li><a href="travel_pension.html">펜션</a></li>
+						<li><a href="travel_custom.html">맞춤여행</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="ticket.html">티켓</a>
+					<ul>
+						<li><a href="ticket.html#movie">영화</a></li>
+						<li><a href="ticket.html#best">공연</a></li>
+						<li><a href="ticket.html#baseball">야구</a></li>
+						<li><a href="ticket.html#soccer">축구</a></li>
+						<li><a href="ticket.html#basketball">농구</a></li>
+						<li><a href="ticket.html#volleyball">배구</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="consultation.html">자문</a>
+					<ul>
+						<li><a href="consultation1.html">법률자문</a></li>
+						<li><a href="consultation2.html">경영자문</a></li>
+						<li><a href="consultation3.html">변리자문</a></li>
+						<li><a href="consultation4.html">노무자문</a></li>
+						<li><a href="consultation5.html">파산회생</a></li>
+						<li><a href="consultation6.html">손해사정</a></li>
+						<li><a href="consultation7.html">세무자문</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="life.html">생활</a>
+					<ul>
+						<li><a href="life_detail1.html">사진타운</a></li>
+						<li><a href="life_detail2.html">가족사진</a></li>
+						<li><a href="life_detail3.html">홈케어</a></li>
+						<li><a href="http://www.ifamily.co.kr/iwedding">웨딩상담</a></li>
+						<li><a href="life_detail5.html">하나금융</a></li>
+						<li><a href="life_detail6.html">정리수납</a></li>
+						<li><a href="life_detail7.html">헤어서비스</a></li>
+						<li><a href="life_detail8.html">마음건강</a></li>
+						<li><a href="life_detail9.html">안전/보안</a></li>
+						
+					</ul>
+				</li>
+
+				<li>
+					<a href="econ.html">e콘</a>
+					<ul>
+						<li><a href="econ_coffee.html">커피</a></li>
+						<li><a href="econ_fastfood.html">패스트푸드</a></li>
+						<li><a href="econ_convenience.html">편의점/간식</a></li>
+						<li><a href="econ_bread.html">제과/제빵</a></li>
+						<li><a href="econ_restaurant.html">외식/레스토랑</a></li>
+						<li><a href="econ_etc.html">생활/기타</a></li>
+						<li><a href="econ_movie.html">영화</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="tour.html">관광지</a>
+					<ul>
+						<li><a href="tour_md.html">MD추천</a></li>
+						<li><a href="tour_kids.html">키즈</a></li>
+						<li><a href="tour_water.html">워터파크</a></li>
+						<li><a href="tour_theme.html">테마파크</a></li>
+						<li><a href="tour_restaurant.html">레스토랑</a></li>
+						<li><a href="tour_spa.html">스파/온천</a></li>
+						<li><a href="tour_ski.html">스키/눈썰매</a></li>
+						<li><a href="tour_aqua.html">아쿠아리움</a></li>
+						<li><a href="tour_leports.html">레포츠</a></li>
+					</ul>
+				</li>
+
+				<li style="clear: both">
+					<a href="education.html">교육</a>
+					<ul>
+						<li><a href="education_detail1.html">근로자카드</a></li>
+						<li><a href="education_detail2.html">유아교육</a></li>
+						<li><a href="book.html">우수도서</a></li>
+						<li><a href="education_detail4.html">기업교육</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="car.html">자동차</a>
+					<ul>
+						<li><a href="http://carbohummall-direct.com/">자동차보험</a></li>
+						<li><a href="car_detail2.html">렌터카견적</a></li>
+						<li><a href="car_carpos.html">엔진오일</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="couponking.html">쿠폰킹</a>
+					<ul>
+						<li><a href="couponking_eat.html">맛집/카페</a></li>
+						<li><a href="couponking_beauty.html">뷰티/케어</a></li>
+						<li><a href="couponking_health.html">건강관리</a></li>
+						<li><a href="couponking_car.html">차량정비</a></li>
+						<li><a href="couponking_life.html">생활편의</a></li>
+						<li><a href="couponking_education.html">교육/학원</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="shopping.html">쇼핑</a>
+					<ul>
+						<li><a href="shopping_samsung.html">삼성/특가전</a></li>
+						<li><a href="shopping_digital.html">가전/디지털</a></li>
+						<li><a href="shopping_kitchen.html">주방/생활</a></li>
+						<li><a href="shopping_furniture.html">유아동/가구</a></li>
+						<li><a href="shopping_health.html">건강/식품</a></li>
+						<li><a href="shopping_fashion.html">패션/잡화</a></li>
+						<li><a href="shopping_sports.html">스포츠/레져</a></li>
+						<li><a href="shopping_gift.html">사은품</a></li>
+						<li><a href="shopping_office.html">오피스</a></li>
+						<li><a href="shopping_clothing.html">의류</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="welfaremall.html">복지몰</a>
+				</li>
+
+				<li>
+					<a href="charge.html">충전소</a>
+				</li>
+
+				<li>
+					<a href="event.html">이벤트</a>
+					<ul>
+						<li><a href="event.html">진행중 이벤트</a></li>
+						<li><a href="event_end.html">종료된 이벤트</a></li>
+						<li><a href="event_win.html">당첨자 발표</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="search">
+			<form action="">
+				<input type="text" placeholder="어떤 혜택이 필요하세요?">
+				<input type="submit">
+			</form>
+		</div>
+
+		<ul class="gnb">
+			<li><a href="login.html"><img src="images/login_icon.png" alt="login_icon">로그인</a></li>
+			<li><a href="cart.html"><img src="images/cart_icon.png" alt="cart_icon">장바구니</a></li>
+			<li><a href="mypage.html"><img src="images/mypage_icon.png" alt="mypage_icon">마이페이지</a></li>
+		</ul>
+	</header>
+
+	<div class="detail_title center cf">
+		<h3>오블리쥬헤어</h3>
+		<h6>아나운서와 연예인이 즐겨찾는 청담동 HOT한 헤어샵</h6>
+		<div class="lnb">
+			<a href="index.html">홈</a>
+			<span>></span>
+			<a href="welfaremall.html">복지몰</a>
+			<span>></span>
+			<a href="welfaremall_detail.html" class="red">오블리쥬헤어</a>
+		</div>
+		<div class="line bg_red"></div>
+	</div>
+
+	<div class="detail_top center cf">
+		<div class="detail_banner_half">
+			<div class="img" style="background-image: url(images/welfare_banner.png);"></div>
+		</div>
+
+		<div class="detail_info">
+			<form action="">
+				<h5 class="name">오블리쥬 헤어</h5>
+				<h6 id="color" class="color red">간단 소개</h6>
+				<h6 class="text">우리나라의 유행의 중심 청담동에서 유행을 선도하는 오블리쥬 청담점에서 멤버십 서비스를 통해 헤어컷 1회 무료(두피케어, 모발 트리트먼트, 펌, 염색, 헤어메이크업 등)을 품목에 상관없이 케어해드립니다!</h6>
+				<h6 class="color red">회원 가격</h6>
+				<h6 class="no_discount">200,000원</h6>
+				<h3 class="price">25,000원</h3>
+				<input type="button" value="주문하기" class="red border_red" onClick="location.href='order.html'">
+			</form>
+		</div>
+	</div>
+
+	<div class="subtab_link center cf">
+		<div><a class="content1" href="#content1">상품정보</a></div>
+		<div><a class="content2" href="#content2">사용정보</a></div>
+		<div><a class="content3" href="#content3">상품문의</a></div>
+		<div><a class="content4" href="#content4">사용후기</a></div>
+	</div>
+	
+	<div class="detail_content center">
+		<div class="contents" id="content1">
+			<h3 class="detail_content_title">상품소개 및 정보</h3>
+			<p><img src="images/detail_oblige1.png" alt="detail_oblige"></p>
+		</div>
+		
+		<div class="contents" id="content2">
+			<h3 class="detail_content_title">사용 정보</h3>
+			<table class="info">
+				<tr>
+					<td class="bg">판매자명</td>
+					<td>(주) 한국 기업 복지</td>
+					<td class="bg">상담 전화번호</td>
+					<td>02-562-7747</td>
+				</tr>
+
+				<tr>
+					<td class="bg">유효 기간</td>
+					<td>매일로부터 1년</td>
+					<td class="bg">이용 가능 매장</td>
+					<td>e복지 제휴 검진센터</td>
+				</tr>
+
+				<tr>
+					<td class="bg">잔액 환급 조건</td>
+					<td>미사용 시 환급 가능</td>
+					<td class="bg">교환 및 반품</td>
+					<td>잔액 환급은 미사용시 가능</td>
+				</tr>
+
+				<tr>
+					<td class="bg">유의 사항</td>
+					<td colspan="3">
+						<p>검진 최소 1주일 이전에 예약하여야 하며, 검사 전일 저녁 8시 이후로부터는 금식하여야 합니다.</p>
+						<p>예약 접수는 1주일 이전에 병원별 담당자가 별도로 진행하기때문에 병원 일반 고객센터에서는 확인이 어려우실 수 있습니다.<br>
+						이에 궁금하신 사항은 통합 고객센터 (02-562-7747)로 연락 주시기 바랍니다.</p>
+						<p>기본 제공 검진항목 이외에 추가 검진도 가능하며, 별도의 비용이 청구됩니다. (병원별 금액 상이)</p>
+						<p>추가 검진 항목 선택시 일정 조율이 필요할 수 있으며, 예약 담당자가 예약 확정을 위해 연락드리면 그 때 보다 자세한 상담이 가능합니다.</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="contents" id="content3">
+			<h3 class="detail_content_title">상품 문의 <a href="" class="qna_popup">문의하기</a></h3>
+
+			<div class="qna_write_wrap">
+				<div class="qna_write">
+					<a href=""><img src="images/write_close.png" alt="write_close"></a>
+					<h4>상품문의 작성</h4>
+					<form action="">
+						<textarea placeholder="문의 내용을 입력해 주세요. 최대한 빠른시간에 친절히 알려드리겠습니다."></textarea>
+						<input type="submit" value="등록하기" class="bg_red">
+					</form>
+				</div>
+			</div>
+
+			<table class="qna">
+				<tr class="complete">
+					<td class="kind"><p class="border_black">답변 완료</p></td>
+					<td class="text">이거 구매한 지 8월달이면 1년이 됩니다.<br>
+					처음 구매한날에 1-2번 사용하고<br>
+					기존 다리미보다 약해서 그대로 두었다가 며칠전에 사용하려고 하니<br>
+					스팀이 안 나옵니다..a/s 하려고 하는데 어떻게 하면 됩니까?</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+				<tr class="answer">
+					<td class="kind"><p class="border_red red">답변</p></td>
+					<td class="text">한경희고객센터(1577-3555)로 접수 후 서비스 받으시면 됩니다. 감사합니다.</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+				<tr class="waiting">
+					<td class="kind"><p class="waiting_kind">답변 대기</p></td>
+					<td class="text">이거 구매한 지 8월달이면 1년이 됩니다.<br>
+					처음 구매한날에 1-2번 사용하고<br>
+					기존 다리미보다 약해서 그대로 두었다가 며칠전에 사용하려고 하니<br>
+					스팀이 안 나옵니다..a/s 하려고 하는데 어떻게 하면 됩니까?</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+<!-- 상품 문의 없을때! -->
+				<!-- <tr class="no_list">
+					<td colspan="3">등록된 상품문의가 없습니다.</td>
+				</tr> -->
+			</table>
+		</div>
+		
+		<div class="contents" id="content4">
+			<h3 class="detail_content_title">사용 후기 <a href="" class="review_popup">후기작성</a></h3>
+
+			<div class="review_write_wrap">
+				<div class="review_write">
+					<a href=""><img src="images/write_close.png" alt="write_close"></a>
+					<h4>사용후기 작성</h4>
+					<form action="">
+						<label for="star_select">구매 만족도</label>
+						<select id="star_select">
+							<option value="">★★★★★</option>
+							<option value="">★★★★☆</option>
+							<option value="">★★★☆☆</option>
+							<option value="">★★☆☆☆</option>
+							<option value="">★☆☆☆☆</option>
+						</select>
+						<label for="review_text">후기 입력</label>
+						<textarea id="review_text" placeholder="후기를 입력해주세요. 남겨주신 소중한 후기는 좋은 상품을 선택할 수 있는 유용한 기준이 됩니다."></textarea>
+						<input type="submit" value="등록하기" class="bg_red">
+					</form>
+				</div>
+			</div>
+
+			<table class="review">
+				<tr class="complete">
+					<td class="star">만족도<img src="images/greenstar5.png" alt="greenstar"></td>
+					<td class="text">너무 좋은 가격에 너무 친절한 서비스, 만족스럽게 잘 받았습니다! :)</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+				<tr class="complete">
+					<td class="star">만족도<img src="images/greenstar2.png" alt="greenstar"></td>
+					<td class="text">적당한 가격 적당한 만족입니다~</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+				<tr class="complete">
+					<td class="star">만족도<img src="images/greenstar2.png" alt="greenstar"></td>
+					<td class="text">적당한 가격 적당한 만족입니다~</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+				<tr class="complete">
+					<td class="star">만족도<img src="images/greenstar2.png" alt="greenstar"></td>
+					<td class="text">적당한 가격 적당한 만족입니다~</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+				<tr class="complete">
+					<td class="star">만족도<img src="images/greenstar2.png" alt="greenstar"></td>
+					<td class="text">적당한 가격 적당한 만족입니다~</td>
+					<td class="info">
+						<p class="writer">작성자 : <span>홍길동</span></p>
+						<p class="date">등록일 : <span>2017.08.24</span></p>
+					</td>
+				</tr>
+
+<!-- 상품 문의 없을때! -->
+				<!-- <tr class="no_list">
+					<td colspan="3">등록된 상품후기가 없습니다.</td>
+				</tr> -->
+			</table>
+		</div>
+	</div>
+		
+	<footer>
+		<div class="ft_top">
+			<div class="center">
+				<ul class="cf">
+					<li><a href="">이용약관</a></li>
+					<li><a href="" class="eblue">개인정보 처리방침</a></li>
+					<li><a href="">이메일 무단 수집 거부</a></li>
+					<li><a href="">고객센터</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="ft_bottom center">
+			<p><strong>(주) 한국기업복지</strong></p>
+			<p>대표 이현호&nbsp;&nbsp;&nbsp;&nbsp;서울시 성동구 성수일로 77 서울숲 IT밸리 505~507호&nbsp;&nbsp;&nbsp;&nbsp;사업자 등록번호 : 749-86-0063&nbsp;&nbsp;&nbsp;&nbsp;<a href="">사업자 정보 확인하기</a>&nbsp;&nbsp;&nbsp;&nbsp;통신판매업 신고번호 : 서울성동 01210호</p>
+			<p>고객센터 <strong>02-562-7747</strong>(평일 09-18시)&nbsp;&nbsp;&nbsp;&nbsp;팩스 02-562-2242&nbsp;&nbsp;&nbsp;&nbsp;이메일 okwel@naver.com</p>
+			<p class="copyright">Copyright © 2017 ebokji All Right Reserved.</p>
+		</div>
+	</footer>
+</body>
+</html>

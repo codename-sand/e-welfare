@@ -1,0 +1,13 @@
+@charset "utf-8";
+.bx-pager a.active{background:#4a88da}
+section .sub_title{padding-top:60px}
+section .articleWrap{width:1216px}
+section article{float:left;width:592px;height:152px;margin-right:16px;margin-bottom:16px;box-sizing:border-box;padding:20px}
+section article .app_img{width:110px;height:110px;border-radius:15px;float:left;margin-right:20px;background-position:center center;background-size:cover}
+section article h6.kind{margin-top:10px;float:left;width:290px}
+section article a.point{width:90px;height:90px;border-radius:100%;box-sizing:border-box;float:right;text-align:center;font-weight:500;padding-top:22px;line-height:20px;transition:.2s;margin-top:10px}
+section article a.border_egreen:hover{background-color:#9ed26a;color:#fff!important}
+section article a.border_eblue:hover{background-color:#4fc0e8;color:#fff!important}
+section article a.point span{letter-spacing:0;display:block}
+section article p.app_name{margin-top:3px;float:left;width:290px;font-weight:500}
+section article h6.introduce{color:#a9b0bb;float:left;width:290px;word-break:keep-all;margin-top:7px}

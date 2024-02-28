@@ -1,0 +1,9 @@
+@charset "utf-8";
+.bx-pager a.active{background:#89c053}
+.item_five_wrap{margin-bottom:70px}
+.item_ten_wrap{margin-bottom:70px}
+.detail_top .detail_info .coupon_complete{background:url(../images/cart_bg.png);position:absolute;bottom:95px;left:94px;width:270px;height:128px;box-sizing:border-box;padding-top:17px;display:none}
+.detail_top .detail_info .coupon_complete a.close{position:absolute;top:10px;right:10px}
+.detail_top .detail_info .coupon_complete a.close img{width:15px}
+.detail_top .detail_info .coupon_complete p{font-weight:500;text-align:center;margin-bottom:10px;font-size:14px}
+.detail_top .detail_info .coupon_complete a.coupon_link{display:block;width:120px;text-align:center;height:30px;line-height:30px;margin:0 auto;font-size:14px;font-weight:500;color:#fff}

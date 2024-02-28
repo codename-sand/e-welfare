@@ -1,0 +1,12 @@
+@charset "utf-8";
+section .articleWrap{width:1216px}
+section article{float:left;width:592px;margin-right:16px;margin-bottom:16px;box-sizing:border-box;padding:20px;cursor:pointer;position:relative}
+section article:after{position:absolute;top:20px;left:20px;content:'종료';font-size:32px;width:550px;height:254px;line-height:254px;background:url(../images/event_end.png) center center;color:#fff;text-align:center}
+section article img{margin-bottom:20px;display:block}
+section article h6{float:left;width:450px}
+section article h3{margin:3px 0 10px;float:left;width:450px}
+section article p.date{font-weight:500;float:left;width:450px}
+section article p.date span{font-weight:400;letter-spacing:0;color:#636c77;margin-left:5px}
+section article p.count{float:right}
+section article p.count span{font-weight:500;letter-spacing:0;margin-left:3px}
+section > p{margin-top:20px}

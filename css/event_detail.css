@@ -1,0 +1,21 @@
+@charset "utf-8";
+.event_detail{padding-bottom:100px}
+.event_detail .ribbon{background:url(../images/ribbon.png) no-repeat center center;width:200px;line-height:36px;color:#fff;text-align:center;letter-spacing:0;margin:100px auto 50px}
+.event_detail .event_title{font-size:32px;text-align:center;font-weight:500;margin-bottom:10px}
+.event_detail .event_sub_title{text-align:center;font-weight:300;color:#636c77;margin-bottom:30px}
+.event_detail ul{text-align:center;margin-bottom:50px}
+.event_detail ul li{display:inline;padding:0 15px;text-align:center}
+.event_detail ul li:first-child{background:url(../images/event_line.png) no-repeat right 60%;padding-right:20px}
+.event_detail li span{font-weight:300;letter-spacing:0;margin-left:10px;color:#636c77}
+.event_detail > img{display:block;margin:0 auto;width:600px}
+.event_detail > p{text-align:center}
+.event_detail .text{text-align:center}
+.comment .write{border-top:2px solid #424852;border-bottom:2px solid #424852;padding:20px 0 20px 20px}
+.comment .write textarea{width:1064px;height:120px;border:1px solid #e4e8eb;resize:none;padding:15px 20px;box-sizing:border-box}
+.comment .write input{width:96px;height:40px;background:none;float:right;box-sizing:border-box;margin-top:40px;transition:.3s}
+.comment .write input:hover{color:#fff!important;background:#e8553e}
+.comment .comment_list{border-top:1px solid #e4e8eb;margin-top:30px;width:100%}
+.comment .comment_list tr td{height:120px;border-bottom:1px solid #e4e8eb}
+.comment .comment_list tr td.ment{padding:20px;padding-right:100px;width:1050px;box-sizing:border-box;word-break:keep-all}
+.comment .comment_list tr td p{color:#a9afba}
+.comment .comment_list tr td p span{color:#424852}

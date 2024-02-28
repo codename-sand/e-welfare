@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author"  content="">
+	<title>e복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script src="js/input.js"></script>
+<style>
+body {
+	width : 440px;
+	min-width: 440px;
+	padding : 20px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.pop_title {
+	margin-bottom: 30px;
+}
+
+.skt_thum {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+.info_title {
+	font-weight: 600;
+	width: 100%;
+	border-bottom: 1px solid #424852;
+	line-height: 40px;
+	margin-bottom: 20px;
+	position: relative;
+	margin-top: 50px;
+}
+
+.info {
+	font-size: 12px;
+}
+
+.skt_input label {
+	width : 130px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.skt_input input[type="text"],
+.skt_input input[type="tel"] {
+	width : 260px;
+	height: 44px;
+	border : 1px solid #e4e8eb;
+	margin-bottom: 10px;
+	font-weight: 400;
+	margin-top: 16px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.mypoint {
+	text-align: right;
+	color: #ef5f84;
+	font-weight: 600 !important;
+}
+
+.usepoint {
+	text-align: right;
+}
+
+.right_button {
+	display: block;
+	margin-left: 313px;
+	width : 80px;
+	height: 30px;
+	background: none;
+	margin-bottom: 10px;
+}
+
+.notice {
+	font-size: 14px;
+	color: #777777;
+}
+
+.check_box {
+	/*margin-bottom: 50px;*/
+}
+
+.check_wrap {
+	width : 20px;
+	height: 20px;
+	position: relative;
+	float: left;
+}
+
+input[type="checkbox"] {
+	width : 20px;
+	height: 20px;
+	position: absolute;
+	top : 0;
+	left : 0;
+	margin : 0;
+	opacity: 0;
+	z-index: 2;
+}
+
+.checkBgImg {
+	width : 20px;
+	height: 20px;
+	background-image: url(images/checkbox_none.png);
+	position: absolute;
+	top : 0;
+	left : 0;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked + .checkBgImg{
+	background: url(images/checkbox_on.png);
+}
+
+.check_box .check_text {
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	float: left;
+}
+
+.open_btn {
+	background: url(images/agree_open.png);
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.agree {
+	clear: both;
+	font-size: 14px;
+	color: #777777;
+}
+
+.bt {
+	width : 400px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: -1px;
+	background : none;
+	margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+	<form>
+	<div class="bg">
+		<h4 class="pink pop_title">온라인 주문하기</h4>
+		
+		<div class="border_gray skt_thum" style="background-image: url(images/skt_img.png);">
+		</div>
+
+		<div class="userinfo">
+			<p class="info_title">주문자 정보</p>
+		</div>
+
+		<div class="skt_input">
+			<label for="name">성명</label>
+			<input type="text" id="name" value="홍길동">
+		</div>
+		
+		<div class="skt_input">
+			<label for="birth">생년월일</label>
+			<input type="text" id="birth" placeholder="주민번호 앞 6자리">
+		</div>
+
+		<div class="skt_input">
+			<label for="phone_number">휴대폰번호</label>
+			<input type="text" id="phone_number" value="0123456789">
+		</div>
+		
+		<div class="userinfo">
+			<p class="info_title">포인트 사용</p>
+		</div>
+
+		<div class="skt_input">
+			<label for="point">사용가능한 포인트</label>
+			<input type="text" id="point" readonly="readonly" value="29,768,421P" class="mypoint">
+		</div>
+		
+		<div class="skt_input">
+			<label for="point2">적용 포인트</label>
+			<input type="text" id="point2" class="usepoint">
+			<button class="pink border_pink right_button">모두적용</button>
+		</div>
+		<p class="notice">* 통신판매 포인트 사용 시 남은 기기값은 현금 결제로 해주셔야 합니다.</p>
+
+		<div class="userinfo">
+			<p class="info_title">약관 동의</p>
+		</div>
+
+		<div class="check_box">
+			<div class="check_wrap">
+				<input type="checkbox" id="check">
+				<div class="checkBgImg"></div>
+			</div>
+			<label for="check" class="check_text">개인정보 수집동의(필수)</label>
+			<div class="open_btn"></div>
+			<p class="agree">개인정보 수집동의 개인정보 수집동의 개인정보 수집동의 개인정보 수집동의 개인정보 수집동의 개인정보 수집동의 개인정보 수집동의 개인정보 수집동의 개인정보 수집동의</p>
+		</div>
+
+		<script type="text/javascript">
+		$(function(){	
+
+			$('.agree').hide();
+
+		    $(".open_btn").click(function() {
+		       if($('.agree').css('display')=='none'){
+		            $('.agree').slideDown(200);
+		            $('.open_btn').css('background-image','url(images/agree_close.png)');
+		        }
+		        else if($('.agree').css('display')=='block'){
+		            $('.agree').slideUp(200);
+		            $('.open_btn').css('background-image','url(images/agree_open.png)');
+		        }   
+		    })
+		});
+		</script>
+		
+		<button class="border_pink pink bt">신청하기</button>
+		</form>
+	</div>
+</body>
+</html>
